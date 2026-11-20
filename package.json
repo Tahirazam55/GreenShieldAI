@@ -1,0 +1,28 @@
+{
+  "name": "greenshield-ai",
+  "version": "1.0.0",
+  "description": "GreenShieldAI - Predict. Detect. Protect. Autonomous Earth Observation & Ecological Defense Platform",
+  "scripts": {
+    "dev": "concurrently -n \"BACKEND,FRONTEND\" -c \"green,cyan\" \"npm run dev:backend\" \"npm run dev:frontend\"",
+    "dev:backend": "cd backend && npm run dev",
+    "dev:frontend": "cd frontend && npm run dev",
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm run preview",
+    "precompute": "cd backend && npm run precompute",
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "test": "cd backend && npm test"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "keywords": [
+    "earth-engine",
+    "gis",
+    "forest-protection",
+    "deforestation-detection",
+    "satellite-observation"
+  ],
+  "author": "GreenShieldAI",
+  "license": "MIT"
+}

@@ -1,0 +1,485 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "PATCH_0001",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.721597,
+              35.878
+            ],
+            [
+              71.720962,
+              35.880962
+            ],
+            [
+              71.718,
+              35.881307
+            ],
+            [
+              71.715694,
+              35.880306
+            ],
+            [
+              71.713535,
+              35.878
+            ],
+            [
+              71.715339,
+              35.875339
+            ],
+            [
+              71.718,
+              35.873698
+            ],
+            [
+              71.720699,
+              35.875301
+            ],
+            [
+              71.721597,
+              35.878
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "patchId": "PATCH_0001",
+        "className": "forest_loss",
+        "category": "Severe Disturbance / Probable Cutting",
+        "shortLabel": "Forest Loss",
+        "color": "#E63946",
+        "areaHa": 47.81,
+        "centroidLat": 35.878,
+        "centroidLon": 71.718,
+        "statusNote": "Potential disturbance requiring field verification: sharp canopy drop",
+        "complianceNotice": "NOTICE: Detections represent potential disturbance requiring field verification. Earth observation algorithms detect spectral variance that may result from natural mortality, snow damage, landslides, or seasonal thinning in addition to anthropogenic cutting.",
+        "isHighRisk": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PATCH_0004",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.734836,
+              35.922
+            ],
+            [
+              71.734059,
+              35.924059
+            ],
+            [
+              71.732,
+              35.925621
+            ],
+            [
+              71.729988,
+              35.924012
+            ],
+            [
+              71.729575,
+              35.922
+            ],
+            [
+              71.729407,
+              35.919407
+            ],
+            [
+              71.732,
+              35.918187
+            ],
+            [
+              71.734531,
+              35.919469
+            ],
+            [
+              71.734836,
+              35.922
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "patchId": "PATCH_0004",
+        "className": "vegetation_decline",
+        "category": "Vegetation Decline / Canopy Thinning",
+        "shortLabel": "Vegetation Decline",
+        "color": "#F4A261",
+        "areaHa": 41.04,
+        "centroidLat": 35.922,
+        "centroidLon": 71.732,
+        "statusNote": "Gradual loss in leaf moisture or greenness index",
+        "complianceNotice": "NOTICE: Detections represent potential disturbance requiring field verification. Earth observation algorithms detect spectral variance that may result from natural mortality, snow damage, landslides, or seasonal thinning in addition to anthropogenic cutting.",
+        "isHighRisk": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PATCH_0008",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.697455,
+              35.87
+            ],
+            [
+              71.69731,
+              35.87231
+            ],
+            [
+              71.695,
+              35.873369
+            ],
+            [
+              71.69328,
+              35.87172
+            ],
+            [
+              71.692271,
+              35.87
+            ],
+            [
+              71.692763,
+              35.867763
+            ],
+            [
+              71.695,
+              35.866703
+            ],
+            [
+              71.697033,
+              35.867967
+            ],
+            [
+              71.697455,
+              35.87
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "patchId": "PATCH_0008",
+        "className": "regrowth",
+        "category": "Regrowth / Canopy Recovery",
+        "shortLabel": "Regrowth",
+        "color": "#2A9D8F",
+        "areaHa": 35.4,
+        "centroidLat": 35.87,
+        "centroidLon": 71.695,
+        "statusNote": "Positive dNDVI canopy recovery and plantation succession",
+        "complianceNotice": "NOTICE: Detections represent potential disturbance requiring field verification. Earth observation algorithms detect spectral variance that may result from natural mortality, snow damage, landslides, or seasonal thinning in addition to anthropogenic cutting.",
+        "isHighRisk": false
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PATCH_0002",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.748527,
+              35.892
+            ],
+            [
+              71.747519,
+              35.894519
+            ],
+            [
+              71.745,
+              35.89457
+            ],
+            [
+              71.742706,
+              35.894294
+            ],
+            [
+              71.741936,
+              35.892
+            ],
+            [
+              71.743071,
+              35.890071
+            ],
+            [
+              71.745,
+              35.888836
+            ],
+            [
+              71.747366,
+              35.889634
+            ],
+            [
+              71.748527,
+              35.892
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "patchId": "PATCH_0002",
+        "className": "forest_loss",
+        "category": "Severe Disturbance / Probable Cutting",
+        "shortLabel": "Forest Loss",
+        "color": "#E63946",
+        "areaHa": 30.63,
+        "centroidLat": 35.892,
+        "centroidLon": 71.745,
+        "statusNote": "Potential disturbance requiring field verification: sharp canopy drop",
+        "complianceNotice": "NOTICE: Detections represent potential disturbance requiring field verification. Earth observation algorithms detect spectral variance that may result from natural mortality, snow damage, landslides, or seasonal thinning in addition to anthropogenic cutting.",
+        "isHighRisk": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PATCH_0005",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.763845,
+              35.885
+            ],
+            [
+              71.76254,
+              35.88654
+            ],
+            [
+              71.761,
+              35.887197
+            ],
+            [
+              71.758779,
+              35.887221
+            ],
+            [
+              71.758439,
+              35.885
+            ],
+            [
+              71.759355,
+              35.883355
+            ],
+            [
+              71.761,
+              35.882855
+            ],
+            [
+              71.762566,
+              35.883434
+            ],
+            [
+              71.763845,
+              35.885
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "patchId": "PATCH_0005",
+        "className": "vegetation_decline",
+        "category": "Vegetation Decline / Canopy Thinning",
+        "shortLabel": "Vegetation Decline",
+        "color": "#F4A261",
+        "areaHa": 29.76,
+        "centroidLat": 35.885,
+        "centroidLon": 71.761,
+        "statusNote": "Gradual loss in leaf moisture or greenness index",
+        "complianceNotice": "NOTICE: Detections represent potential disturbance requiring field verification. Earth observation algorithms detect spectral variance that may result from natural mortality, snow damage, landslides, or seasonal thinning in addition to anthropogenic cutting.",
+        "isHighRisk": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PATCH_0007",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.757113,
+              35.932
+            ],
+            [
+              71.756472,
+              35.933472
+            ],
+            [
+              71.755,
+              35.93393
+            ],
+            [
+              71.753515,
+              35.933485
+            ],
+            [
+              71.753008,
+              35.932
+            ],
+            [
+              71.753336,
+              35.930336
+            ],
+            [
+              71.755,
+              35.929569
+            ],
+            [
+              71.756864,
+              35.930136
+            ],
+            [
+              71.757113,
+              35.932
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "patchId": "PATCH_0007",
+        "className": "burn_scar",
+        "category": "Burn Scar / Fire Disturbance",
+        "shortLabel": "Burn Scar",
+        "color": "#3D1308",
+        "areaHa": 22.8,
+        "centroidLat": 35.932,
+        "centroidLon": 71.755,
+        "statusNote": "High dNBR burn severity & NASA FIRMS thermal hotspot correlation",
+        "complianceNotice": "NOTICE: Detections represent potential disturbance requiring field verification. Earth observation algorithms detect spectral variance that may result from natural mortality, snow damage, landslides, or seasonal thinning in addition to anthropogenic cutting.",
+        "isHighRisk": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PATCH_0003",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.703998,
+              35.918
+            ],
+            [
+              71.703356,
+              35.919356
+            ],
+            [
+              71.702,
+              35.920123
+            ],
+            [
+              71.700242,
+              35.919758
+            ],
+            [
+              71.699365,
+              35.918
+            ],
+            [
+              71.700024,
+              35.916024
+            ],
+            [
+              71.702,
+              35.915583
+            ],
+            [
+              71.70362,
+              35.91638
+            ],
+            [
+              71.703998,
+              35.918
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "patchId": "PATCH_0003",
+        "className": "forest_loss",
+        "category": "Severe Disturbance / Probable Cutting",
+        "shortLabel": "Forest Loss",
+        "color": "#E63946",
+        "areaHa": 20.06,
+        "centroidLat": 35.918,
+        "centroidLon": 71.702,
+        "statusNote": "Potential disturbance requiring field verification: sharp canopy drop",
+        "complianceNotice": "NOTICE: Detections represent potential disturbance requiring field verification. Earth observation algorithms detect spectral variance that may result from natural mortality, snow damage, landslides, or seasonal thinning in addition to anthropogenic cutting.",
+        "isHighRisk": true
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "PATCH_0006",
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              71.711996,
+              35.898
+            ],
+            [
+              71.711458,
+              35.899458
+            ],
+            [
+              71.71,
+              35.899881
+            ],
+            [
+              71.70844,
+              35.89956
+            ],
+            [
+              71.708171,
+              35.898
+            ],
+            [
+              71.70871,
+              35.89671
+            ],
+            [
+              71.71,
+              35.896309
+            ],
+            [
+              71.71152,
+              35.89648
+            ],
+            [
+              71.711996,
+              35.898
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "patchId": "PATCH_0006",
+        "className": "vegetation_decline",
+        "category": "Vegetation Decline / Canopy Thinning",
+        "shortLabel": "Vegetation Decline",
+        "color": "#F4A261",
+        "areaHa": 14.13,
+        "centroidLat": 35.898,
+        "centroidLon": 71.71,
+        "statusNote": "Gradual loss in leaf moisture or greenness index",
+        "complianceNotice": "NOTICE: Detections represent potential disturbance requiring field verification. Earth observation algorithms detect spectral variance that may result from natural mortality, snow damage, landslides, or seasonal thinning in addition to anthropogenic cutting.",
+        "isHighRisk": true
+      }
+    }
+  ]
+}

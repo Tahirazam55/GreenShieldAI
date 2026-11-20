@@ -1,0 +1,5835 @@
+{
+  "jobId": "job_1795167217191_ws4ev",
+  "presetId": "custom",
+  "location": {
+    "id": "custom",
+    "name": "تحصیل مستوج",
+    "district": "Khyber Pakhtunkhwa",
+    "bbox": [
+      72.4653,
+      36.232,
+      72.5653,
+      36.322
+    ],
+    "center": [
+      36.277,
+      72.5153
+    ],
+    "zoom": 13
+  },
+  "timeSeries": [
+    {
+      "year": 2018,
+      "forestCoverPct": 74.3,
+      "meanNdvi": 0.648,
+      "meanNdmi": 0.379,
+      "meanNbr": 0.445,
+      "annualRainfallMm": 905,
+      "summerTempC": 21.5,
+      "sensor": "Sentinel-2 MSI Harmonized L2A",
+      "passDate": "2018-08-18"
+    },
+    {
+      "year": 2019,
+      "forestCoverPct": 74.1,
+      "meanNdvi": 0.666,
+      "meanNdmi": 0.375,
+      "meanNbr": 0.466,
+      "annualRainfallMm": 870,
+      "summerTempC": 21.4,
+      "sensor": "Sentinel-2 MSI Harmonized L2A",
+      "passDate": "2019-08-19"
+    },
+    {
+      "year": 2020,
+      "forestCoverPct": 73.3,
+      "meanNdvi": 0.651,
+      "meanNdmi": 0.369,
+      "meanNbr": 0.46,
+      "annualRainfallMm": 896,
+      "summerTempC": 21.8,
+      "sensor": "Sentinel-2 MSI Harmonized L2A",
+      "passDate": "2020-08-20"
+    },
+    {
+      "year": 2021,
+      "forestCoverPct": 73,
+      "meanNdvi": 0.641,
+      "meanNdmi": 0.373,
+      "meanNbr": 0.433,
+      "annualRainfallMm": 890,
+      "summerTempC": 21.4,
+      "sensor": "Sentinel-2 MSI Harmonized L2A",
+      "passDate": "2021-08-21"
+    },
+    {
+      "year": 2022,
+      "forestCoverPct": 71.7,
+      "meanNdvi": 0.638,
+      "meanNdmi": 0.374,
+      "meanNbr": 0.428,
+      "annualRainfallMm": 898,
+      "summerTempC": 22.1,
+      "sensor": "Sentinel-2 MSI Harmonized L2A",
+      "passDate": "2022-08-22"
+    },
+    {
+      "year": 2023,
+      "forestCoverPct": 71.5,
+      "meanNdvi": 0.633,
+      "meanNdmi": 0.354,
+      "meanNbr": 0.448,
+      "annualRainfallMm": 967,
+      "summerTempC": 21.7,
+      "sensor": "Sentinel-2 MSI Harmonized L2A",
+      "passDate": "2023-08-23"
+    },
+    {
+      "year": 2024,
+      "forestCoverPct": 70.8,
+      "meanNdvi": 0.629,
+      "meanNdmi": 0.361,
+      "meanNbr": 0.445,
+      "annualRainfallMm": 863,
+      "summerTempC": 22.1,
+      "sensor": "Sentinel-2 MSI Harmonized L2A",
+      "passDate": "2024-08-24"
+    },
+    {
+      "year": 2025,
+      "forestCoverPct": 70.1,
+      "meanNdvi": 0.635,
+      "meanNdmi": 0.368,
+      "meanNbr": 0.435,
+      "annualRainfallMm": 914,
+      "summerTempC": 22,
+      "sensor": "Sentinel-2 MSI Harmonized L2A",
+      "passDate": "2025-08-10"
+    },
+    {
+      "year": 2026,
+      "forestCoverPct": 69.5,
+      "meanNdvi": 0.636,
+      "meanNdmi": 0.371,
+      "meanNbr": 0.449,
+      "annualRainfallMm": 886,
+      "summerTempC": 22.3,
+      "sensor": "Sentinel-2 MSI Harmonized L2A",
+      "passDate": "2026-08-11"
+    }
+  ],
+  "segmentation": {
+    "polygonsGeoJSON": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "id": "PATCH_0001",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.506776,
+                  36.2572
+                ],
+                [
+                  72.505963,
+                  36.259863
+                ],
+                [
+                  72.5033,
+                  36.260439
+                ],
+                [
+                  72.501156,
+                  36.259344
+                ],
+                [
+                  72.499909,
+                  36.2572
+                ],
+                [
+                  72.500823,
+                  36.254723
+                ],
+                [
+                  72.5033,
+                  36.253361
+                ],
+                [
+                  72.505755,
+                  36.254745
+                ],
+                [
+                  72.506776,
+                  36.2572
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "patchId": "PATCH_0001",
+            "className": "forest_loss",
+            "category": "Severe Disturbance / Probable Cutting",
+            "shortLabel": "Forest Loss",
+            "color": "#E63946",
+            "areaHa": 50.28,
+            "centroidLat": 36.2572,
+            "centroidLon": 72.5033,
+            "statusNote": "Potential disturbance requiring field verification: sharp canopy drop",
+            "complianceNotice": "NOTICE: Detections represent potential disturbance requiring field verification. Earth observation algorithms detect spectral variance that may result from natural mortality, snow damage, landslides, or seasonal thinning in addition to anthropogenic cutting."
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "PATCH_0004",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.520531,
+                  36.2968
+                ],
+                [
+                  72.519179,
+                  36.298679
+                ],
+                [
+                  72.5173,
+                  36.300145
+                ],
+                [
+                  72.514827,
+                  36.299273
+                ],
+                [
+                  72.51395,
+                  36.2968
+                ],
+                [
+                  72.514776,
+                  36.294276
+                ],
+                [
+                  72.5173,
+                  36.293642
+                ],
+                [
+                  72.519192,
+                  36.294908
+                ],
+                [
+                  72.520531,
+                  36.2968
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "patchId": "PATCH_0004",
+            "className": "vegetation_decline",
+            "category": "Vegetation Decline / Canopy Thinning",
+            "shortLabel": "Vegetation Decline",
+            "color": "#F4A261",
+            "areaHa": 40.95,
+            "centroidLat": 36.2968,
+            "centroidLon": 72.5173,
+            "statusNote": "Gradual loss in leaf moisture or greenness index",
+            "complianceNotice": "NOTICE: Detections represent potential disturbance requiring field verification. Earth observation algorithms detect spectral variance that may result from natural mortality, snow damage, landslides, or seasonal thinning in addition to anthropogenic cutting."
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "PATCH_0008",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.483348,
+                  36.25
+                ],
+                [
+                  72.482546,
+                  36.252246
+                ],
+                [
+                  72.4803,
+                  36.25247
+                ],
+                [
+                  72.47801,
+                  36.25229
+                ],
+                [
+                  72.477478,
+                  36.25
+                ],
+                [
+                  72.478102,
+                  36.247802
+                ],
+                [
+                  72.4803,
+                  36.246802
+                ],
+                [
+                  72.482469,
+                  36.247831
+                ],
+                [
+                  72.483348,
+                  36.25
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "patchId": "PATCH_0008",
+            "className": "regrowth",
+            "category": "Regrowth / Canopy Recovery",
+            "shortLabel": "Regrowth",
+            "color": "#2A9D8F",
+            "areaHa": 35.4,
+            "centroidLat": 36.25,
+            "centroidLon": 72.4803,
+            "statusNote": "Positive dNDVI canopy recovery and plantation succession",
+            "complianceNotice": "NOTICE: Detections represent potential disturbance requiring field verification. Earth observation algorithms detect spectral variance that may result from natural mortality, snow damage, landslides, or seasonal thinning in addition to anthropogenic cutting."
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "PATCH_0002",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.533158,
+                  36.2698
+                ],
+                [
+                  72.532101,
+                  36.271601
+                ],
+                [
+                  72.5303,
+                  36.272766
+                ],
+                [
+                  72.527891,
+                  36.272209
+                ],
+                [
+                  72.526638,
+                  36.2698
+                ],
+                [
+                  72.528418,
+                  36.267918
+                ],
+                [
+                  72.5303,
+                  36.26697
+                ],
+                [
+                  72.532425,
+                  36.267675
+                ],
+                [
+                  72.533158,
+                  36.2698
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "patchId": "PATCH_0002",
+            "className": "forest_loss",
+            "category": "Severe Disturbance / Probable Cutting",
+            "shortLabel": "Forest Loss",
+            "color": "#E63946",
+            "areaHa": 32.57,
+            "centroidLat": 36.2698,
+            "centroidLon": 72.5303,
+            "statusNote": "Potential disturbance requiring field verification: sharp canopy drop",
+            "complianceNotice": "NOTICE: Detections represent potential disturbance requiring field verification. Earth observation algorithms detect spectral variance that may result from natural mortality, snow damage, landslides, or seasonal thinning in addition to anthropogenic cutting."
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "PATCH_0005",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.548619,
+                  36.2635
+                ],
+                [
+                  72.547861,
+                  36.265061
+                ],
+                [
+                  72.5463,
+                  36.26561
+                ],
+                [
+                  72.544511,
+                  36.265289
+                ],
+                [
+                  72.544224,
+                  36.2635
+                ],
+                [
+                  72.544824,
+                  36.262024
+                ],
+                [
+                  72.5463,
+                  36.26096
+                ],
+                [
+                  72.54793,
+                  36.26187
+                ],
+                [
+                  72.548619,
+                  36.2635
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "patchId": "PATCH_0005",
+            "className": "vegetation_decline",
+            "category": "Vegetation Decline / Canopy Thinning",
+            "shortLabel": "Vegetation Decline",
+            "color": "#F4A261",
+            "areaHa": 28.53,
+            "centroidLat": 36.2635,
+            "centroidLon": 72.5463,
+            "statusNote": "Gradual loss in leaf moisture or greenness index",
+            "complianceNotice": "NOTICE: Detections represent potential disturbance requiring field verification. Earth observation algorithms detect spectral variance that may result from natural mortality, snow damage, landslides, or seasonal thinning in addition to anthropogenic cutting."
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "PATCH_0007",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.542311,
+                  36.3058
+                ],
+                [
+                  72.541876,
+                  36.307376
+                ],
+                [
+                  72.5403,
+                  36.308486
+                ],
+                [
+                  72.538636,
+                  36.307464
+                ],
+                [
+                  72.538105,
+                  36.3058
+                ],
+                [
+                  72.538469,
+                  36.303969
+                ],
+                [
+                  72.5403,
+                  36.303658
+                ],
+                [
+                  72.541713,
+                  36.304387
+                ],
+                [
+                  72.542311,
+                  36.3058
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "patchId": "PATCH_0007",
+            "className": "burn_scar",
+            "category": "Burn Scar / Fire Disturbance",
+            "shortLabel": "Burn Scar",
+            "color": "#3D1308",
+            "areaHa": 22.8,
+            "centroidLat": 36.3058,
+            "centroidLon": 72.5403,
+            "statusNote": "High dNBR burn severity & NASA FIRMS thermal hotspot correlation",
+            "complianceNotice": "NOTICE: Detections represent potential disturbance requiring field verification. Earth observation algorithms detect spectral variance that may result from natural mortality, snow damage, landslides, or seasonal thinning in addition to anthropogenic cutting."
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "PATCH_0003",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.489525,
+                  36.2932
+                ],
+                [
+                  72.489244,
+                  36.295144
+                ],
+                [
+                  72.4873,
+                  36.295267
+                ],
+                [
+                  72.485766,
+                  36.294734
+                ],
+                [
+                  72.484723,
+                  36.2932
+                ],
+                [
+                  72.485786,
+                  36.291686
+                ],
+                [
+                  72.4873,
+                  36.290772
+                ],
+                [
+                  72.488868,
+                  36.291632
+                ],
+                [
+                  72.489525,
+                  36.2932
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "patchId": "PATCH_0003",
+            "className": "forest_loss",
+            "category": "Severe Disturbance / Probable Cutting",
+            "shortLabel": "Forest Loss",
+            "color": "#E63946",
+            "areaHa": 18.48,
+            "centroidLat": 36.2932,
+            "centroidLon": 72.4873,
+            "statusNote": "Potential disturbance requiring field verification: sharp canopy drop",
+            "complianceNotice": "NOTICE: Detections represent potential disturbance requiring field verification. Earth observation algorithms detect spectral variance that may result from natural mortality, snow damage, landslides, or seasonal thinning in addition to anthropogenic cutting."
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "PATCH_0006",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.497377,
+                  36.2752
+                ],
+                [
+                  72.496436,
+                  36.276336
+                ],
+                [
+                  72.4953,
+                  36.277338
+                ],
+                [
+                  72.49388,
+                  36.27662
+                ],
+                [
+                  72.49365,
+                  36.2752
+                ],
+                [
+                  72.49406,
+                  36.27396
+                ],
+                [
+                  72.4953,
+                  36.273191
+                ],
+                [
+                  72.496837,
+                  36.273663
+                ],
+                [
+                  72.497377,
+                  36.2752
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "patchId": "PATCH_0006",
+            "className": "vegetation_decline",
+            "category": "Vegetation Decline / Canopy Thinning",
+            "shortLabel": "Vegetation Decline",
+            "color": "#F4A261",
+            "areaHa": 15.5,
+            "centroidLat": 36.2752,
+            "centroidLon": 72.4953,
+            "statusNote": "Gradual loss in leaf moisture or greenness index",
+            "complianceNotice": "NOTICE: Detections represent potential disturbance requiring field verification. Earth observation algorithms detect spectral variance that may result from natural mortality, snow damage, landslides, or seasonal thinning in addition to anthropogenic cutting."
+          }
+        }
+      ]
+    },
+    "stats": {
+      "classes": {
+        "forest_loss": {
+          "id": 4,
+          "name": "Severe Disturbance / Probable Cutting",
+          "shortLabel": "Forest Loss",
+          "color": "#E63946",
+          "fillOpacity": 0.65,
+          "description": "Potential disturbance requiring field verification: sharp canopy drop",
+          "areaHa": 101.33,
+          "percentage": 1.01,
+          "patchCount": 3
+        },
+        "vegetation_decline": {
+          "id": 3,
+          "name": "Vegetation Decline / Canopy Thinning",
+          "shortLabel": "Vegetation Decline",
+          "color": "#F4A261",
+          "fillOpacity": 0.55,
+          "description": "Gradual loss in leaf moisture or greenness index",
+          "areaHa": 84.98,
+          "percentage": 0.85,
+          "patchCount": 3
+        },
+        "burn_scar": {
+          "id": 5,
+          "name": "Burn Scar / Fire Disturbance",
+          "shortLabel": "Burn Scar",
+          "color": "#3D1308",
+          "fillOpacity": 0.7,
+          "description": "High dNBR burn severity and/or FIRMS thermal hotspot overlap",
+          "areaHa": 22.8,
+          "percentage": 0.23,
+          "patchCount": 1
+        },
+        "regrowth": {
+          "id": 2,
+          "name": "Regrowth / Canopy Recovery",
+          "shortLabel": "Regrowth",
+          "color": "#2A9D8F",
+          "fillOpacity": 0.5,
+          "description": "Positive vegetative trend / plantation succession",
+          "areaHa": 35.4,
+          "percentage": 0.35,
+          "patchCount": 1
+        },
+        "stable_forest": {
+          "id": 1,
+          "name": "Stable Forest Canopy",
+          "shortLabel": "Stable Forest",
+          "color": "#2D6A4F",
+          "fillOpacity": 0.35,
+          "description": "No significant spectral variance detected",
+          "areaHa": 9755.49,
+          "percentage": 97.55,
+          "patchCount": 1
+        }
+      },
+      "totalRoiHa": 10000,
+      "totalAffectedHa": 209.11,
+      "top10Patches": [
+        {
+          "rank": 1,
+          "patchId": "PATCH_0001",
+          "category": "Severe Disturbance / Probable Cutting",
+          "shortLabel": "Forest Loss",
+          "color": "#E63946",
+          "areaHa": 50.28,
+          "centroidLat": 36.2572,
+          "centroidLon": 72.5033,
+          "statusNote": "Potential disturbance requiring field verification: sharp canopy drop",
+          "googleMapsUrl": "https://www.google.com/maps/@36.2572,72.5033,18z/data=!3m1!1e3",
+          "googleEarthUrl": "https://earth.google.com/web/@36.2572,72.5033,1500a,1000d,35y,0h,0t,0r",
+          "streetViewUrl": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=36.2572,72.5033"
+        },
+        {
+          "rank": 2,
+          "patchId": "PATCH_0004",
+          "category": "Vegetation Decline / Canopy Thinning",
+          "shortLabel": "Vegetation Decline",
+          "color": "#F4A261",
+          "areaHa": 40.95,
+          "centroidLat": 36.2968,
+          "centroidLon": 72.5173,
+          "statusNote": "Gradual loss in leaf moisture or greenness index",
+          "googleMapsUrl": "https://www.google.com/maps/@36.2968,72.5173,18z/data=!3m1!1e3",
+          "googleEarthUrl": "https://earth.google.com/web/@36.2968,72.5173,1500a,1000d,35y,0h,0t,0r",
+          "streetViewUrl": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=36.2968,72.5173"
+        },
+        {
+          "rank": 3,
+          "patchId": "PATCH_0008",
+          "category": "Regrowth / Canopy Recovery",
+          "shortLabel": "Regrowth",
+          "color": "#2A9D8F",
+          "areaHa": 35.4,
+          "centroidLat": 36.25,
+          "centroidLon": 72.4803,
+          "statusNote": "Positive dNDVI canopy recovery and plantation succession",
+          "googleMapsUrl": "https://www.google.com/maps/@36.25,72.4803,18z/data=!3m1!1e3",
+          "googleEarthUrl": "https://earth.google.com/web/@36.25,72.4803,1500a,1000d,35y,0h,0t,0r",
+          "streetViewUrl": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=36.25,72.4803"
+        },
+        {
+          "rank": 4,
+          "patchId": "PATCH_0002",
+          "category": "Severe Disturbance / Probable Cutting",
+          "shortLabel": "Forest Loss",
+          "color": "#E63946",
+          "areaHa": 32.57,
+          "centroidLat": 36.2698,
+          "centroidLon": 72.5303,
+          "statusNote": "Potential disturbance requiring field verification: sharp canopy drop",
+          "googleMapsUrl": "https://www.google.com/maps/@36.2698,72.5303,18z/data=!3m1!1e3",
+          "googleEarthUrl": "https://earth.google.com/web/@36.2698,72.5303,1500a,1000d,35y,0h,0t,0r",
+          "streetViewUrl": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=36.2698,72.5303"
+        },
+        {
+          "rank": 5,
+          "patchId": "PATCH_0005",
+          "category": "Vegetation Decline / Canopy Thinning",
+          "shortLabel": "Vegetation Decline",
+          "color": "#F4A261",
+          "areaHa": 28.53,
+          "centroidLat": 36.2635,
+          "centroidLon": 72.5463,
+          "statusNote": "Gradual loss in leaf moisture or greenness index",
+          "googleMapsUrl": "https://www.google.com/maps/@36.2635,72.5463,18z/data=!3m1!1e3",
+          "googleEarthUrl": "https://earth.google.com/web/@36.2635,72.5463,1500a,1000d,35y,0h,0t,0r",
+          "streetViewUrl": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=36.2635,72.5463"
+        },
+        {
+          "rank": 6,
+          "patchId": "PATCH_0007",
+          "category": "Burn Scar / Fire Disturbance",
+          "shortLabel": "Burn Scar",
+          "color": "#3D1308",
+          "areaHa": 22.8,
+          "centroidLat": 36.3058,
+          "centroidLon": 72.5403,
+          "statusNote": "High dNBR burn severity & NASA FIRMS thermal hotspot correlation",
+          "googleMapsUrl": "https://www.google.com/maps/@36.3058,72.5403,18z/data=!3m1!1e3",
+          "googleEarthUrl": "https://earth.google.com/web/@36.3058,72.5403,1500a,1000d,35y,0h,0t,0r",
+          "streetViewUrl": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=36.3058,72.5403"
+        },
+        {
+          "rank": 7,
+          "patchId": "PATCH_0003",
+          "category": "Severe Disturbance / Probable Cutting",
+          "shortLabel": "Forest Loss",
+          "color": "#E63946",
+          "areaHa": 18.48,
+          "centroidLat": 36.2932,
+          "centroidLon": 72.4873,
+          "statusNote": "Potential disturbance requiring field verification: sharp canopy drop",
+          "googleMapsUrl": "https://www.google.com/maps/@36.2932,72.4873,18z/data=!3m1!1e3",
+          "googleEarthUrl": "https://earth.google.com/web/@36.2932,72.4873,1500a,1000d,35y,0h,0t,0r",
+          "streetViewUrl": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=36.2932,72.4873"
+        },
+        {
+          "rank": 8,
+          "patchId": "PATCH_0006",
+          "category": "Vegetation Decline / Canopy Thinning",
+          "shortLabel": "Vegetation Decline",
+          "color": "#F4A261",
+          "areaHa": 15.5,
+          "centroidLat": 36.2752,
+          "centroidLon": 72.4953,
+          "statusNote": "Gradual loss in leaf moisture or greenness index",
+          "googleMapsUrl": "https://www.google.com/maps/@36.2752,72.4953,18z/data=!3m1!1e3",
+          "googleEarthUrl": "https://earth.google.com/web/@36.2752,72.4953,1500a,1000d,35y,0h,0t,0r",
+          "streetViewUrl": "https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=36.2752,72.4953"
+        }
+      ]
+    }
+  },
+  "risk": {
+    "gridGeoJSON": {
+      "type": "FeatureCollection",
+      "features": [
+        {
+          "type": "Feature",
+          "id": "GRID_0011",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.47647513080365,
+                  36.241009009009005
+                ],
+                [
+                  72.4876502616073,
+                  36.241009009009005
+                ],
+                [
+                  72.4876502616073,
+                  36.25001801801801
+                ],
+                [
+                  72.47647513080365,
+                  36.25001801801801
+                ],
+                [
+                  72.47647513080365,
+                  36.241009009009005
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0011",
+            "centroidLat": 36.245514,
+            "centroidLon": 72.482063,
+            "areaSqKm": 1,
+            "elevationM": 2745,
+            "slopeDeg": 20.7,
+            "aspectDeg": 257,
+            "annualRainfallMm": 1121,
+            "summerTempC": 13.3,
+            "distRoadKm": 0.2,
+            "distSettlementKm": 1.07,
+            "ndviTrendSlope": -0.0179,
+            "ndmiTrendSlope": -0.0171,
+            "lastYearNdviChange": -0.02,
+            "fireCount5yr": 4,
+            "riskProb": 0.955,
+            "riskLevel": "High",
+            "riskColor": "#D90429",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 1
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0017",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.54352591562555,
+                  36.241009009009005
+                ],
+                [
+                  72.5547010464292,
+                  36.241009009009005
+                ],
+                [
+                  72.5547010464292,
+                  36.25001801801801
+                ],
+                [
+                  72.54352591562555,
+                  36.25001801801801
+                ],
+                [
+                  72.54352591562555,
+                  36.241009009009005
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0017",
+            "centroidLat": 36.245514,
+            "centroidLon": 72.549113,
+            "areaSqKm": 1,
+            "elevationM": 2352,
+            "slopeDeg": 48.6,
+            "aspectDeg": 61,
+            "annualRainfallMm": 1067,
+            "summerTempC": 15.7,
+            "distRoadKm": 0.8,
+            "distSettlementKm": 2.07,
+            "ndviTrendSlope": -0.0136,
+            "ndmiTrendSlope": -0.0134,
+            "lastYearNdviChange": -0.023,
+            "fireCount5yr": 4,
+            "riskProb": 0.809,
+            "riskLevel": "High",
+            "riskColor": "#D90429",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 2
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0078",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.52117565401825,
+                  36.304072072072046
+                ],
+                [
+                  72.5323507848219,
+                  36.304072072072046
+                ],
+                [
+                  72.5323507848219,
+                  36.31308108108105
+                ],
+                [
+                  72.52117565401825,
+                  36.31308108108105
+                ],
+                [
+                  72.52117565401825,
+                  36.304072072072046
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0078",
+            "centroidLat": 36.308577,
+            "centroidLon": 72.526763,
+            "areaSqKm": 1,
+            "elevationM": 2241,
+            "slopeDeg": 26.5,
+            "aspectDeg": 188,
+            "annualRainfallMm": 1042,
+            "summerTempC": 16.1,
+            "distRoadKm": 0.2,
+            "distSettlementKm": 1.33,
+            "ndviTrendSlope": -0.0201,
+            "ndmiTrendSlope": -0.017,
+            "lastYearNdviChange": -0.02,
+            "fireCount5yr": 1,
+            "riskProb": 0.798,
+            "riskLevel": "High",
+            "riskColor": "#D90429",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 3
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0018",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.5547010464292,
+                  36.241009009009005
+                ],
+                [
+                  72.5653,
+                  36.241009009009005
+                ],
+                [
+                  72.5653,
+                  36.25001801801801
+                ],
+                [
+                  72.5547010464292,
+                  36.25001801801801
+                ],
+                [
+                  72.5547010464292,
+                  36.241009009009005
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0018",
+            "centroidLat": 36.245514,
+            "centroidLon": 72.560001,
+            "areaSqKm": 1,
+            "elevationM": 2490,
+            "slopeDeg": 30,
+            "aspectDeg": 50,
+            "annualRainfallMm": 1107,
+            "summerTempC": 14.4,
+            "distRoadKm": 1.32,
+            "distSettlementKm": 2.63,
+            "ndviTrendSlope": -0.0066,
+            "ndmiTrendSlope": -0.0045,
+            "lastYearNdviChange": -0.009,
+            "fireCount5yr": 4,
+            "riskProb": 0.783,
+            "riskLevel": "High",
+            "riskColor": "#D90429",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 4
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0047",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.47647513080365,
+                  36.27704504504503
+                ],
+                [
+                  72.4876502616073,
+                  36.27704504504503
+                ],
+                [
+                  72.4876502616073,
+                  36.286054054054034
+                ],
+                [
+                  72.47647513080365,
+                  36.286054054054034
+                ],
+                [
+                  72.47647513080365,
+                  36.27704504504503
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0047",
+            "centroidLat": 36.28155,
+            "centroidLon": 72.482063,
+            "areaSqKm": 1,
+            "elevationM": 2780,
+            "slopeDeg": 16.6,
+            "aspectDeg": 305,
+            "annualRainfallMm": 1093,
+            "summerTempC": 12.3,
+            "distRoadKm": 0.89,
+            "distSettlementKm": 1.78,
+            "ndviTrendSlope": -0.0075,
+            "ndmiTrendSlope": -0.007,
+            "lastYearNdviChange": -0.02,
+            "fireCount5yr": 3,
+            "riskProb": 0.782,
+            "riskLevel": "High",
+            "riskColor": "#D90429",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 5
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0008",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.54352591562555,
+                  36.232
+                ],
+                [
+                  72.5547010464292,
+                  36.232
+                ],
+                [
+                  72.5547010464292,
+                  36.241009009009005
+                ],
+                [
+                  72.54352591562555,
+                  36.241009009009005
+                ],
+                [
+                  72.54352591562555,
+                  36.232
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0008",
+            "centroidLat": 36.236505,
+            "centroidLon": 72.549113,
+            "areaSqKm": 1,
+            "elevationM": 2324,
+            "slopeDeg": 46.7,
+            "aspectDeg": 199,
+            "annualRainfallMm": 1013,
+            "summerTempC": 14.6,
+            "distRoadKm": 0.64,
+            "distSettlementKm": 2.14,
+            "ndviTrendSlope": -0.0136,
+            "ndmiTrendSlope": -0.0104,
+            "lastYearNdviChange": -0.009,
+            "fireCount5yr": 3,
+            "riskProb": 0.743,
+            "riskLevel": "High",
+            "riskColor": "#D90429",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 6
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0046",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.4653,
+                  36.27704504504503
+                ],
+                [
+                  72.47647513080365,
+                  36.27704504504503
+                ],
+                [
+                  72.47647513080365,
+                  36.286054054054034
+                ],
+                [
+                  72.4653,
+                  36.286054054054034
+                ],
+                [
+                  72.4653,
+                  36.27704504504503
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0046",
+            "centroidLat": 36.28155,
+            "centroidLon": 72.470888,
+            "areaSqKm": 1,
+            "elevationM": 2886,
+            "slopeDeg": 33.1,
+            "aspectDeg": 56,
+            "annualRainfallMm": 1135,
+            "summerTempC": 12.1,
+            "distRoadKm": 2.23,
+            "distSettlementKm": 3.25,
+            "ndviTrendSlope": -0.0072,
+            "ndmiTrendSlope": -0.0045,
+            "lastYearNdviChange": -0.006,
+            "fireCount5yr": 4,
+            "riskProb": 0.735,
+            "riskLevel": "High",
+            "riskColor": "#D90429",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 7
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0051",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.52117565401825,
+                  36.27704504504503
+                ],
+                [
+                  72.5323507848219,
+                  36.27704504504503
+                ],
+                [
+                  72.5323507848219,
+                  36.286054054054034
+                ],
+                [
+                  72.52117565401825,
+                  36.286054054054034
+                ],
+                [
+                  72.52117565401825,
+                  36.27704504504503
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0051",
+            "centroidLat": 36.28155,
+            "centroidLon": 72.526763,
+            "areaSqKm": 1,
+            "elevationM": 3101,
+            "slopeDeg": 30.1,
+            "aspectDeg": 349,
+            "annualRainfallMm": 1136,
+            "summerTempC": 11.6,
+            "distRoadKm": 0.2,
+            "distSettlementKm": 0.8,
+            "ndviTrendSlope": -0.0229,
+            "ndmiTrendSlope": -0.0181,
+            "lastYearNdviChange": -0.025,
+            "fireCount5yr": 0,
+            "riskProb": 0.704,
+            "riskLevel": "High",
+            "riskColor": "#D90429",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 8
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0004",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.49882539241095,
+                  36.232
+                ],
+                [
+                  72.5100005232146,
+                  36.232
+                ],
+                [
+                  72.5100005232146,
+                  36.241009009009005
+                ],
+                [
+                  72.49882539241095,
+                  36.241009009009005
+                ],
+                [
+                  72.49882539241095,
+                  36.232
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0004",
+            "centroidLat": 36.236505,
+            "centroidLon": 72.504413,
+            "areaSqKm": 1,
+            "elevationM": 2391,
+            "slopeDeg": 26,
+            "aspectDeg": 316,
+            "annualRainfallMm": 1026,
+            "summerTempC": 15,
+            "distRoadKm": 0.2,
+            "distSettlementKm": 1.32,
+            "ndviTrendSlope": -0.0206,
+            "ndmiTrendSlope": -0.0182,
+            "lastYearNdviChange": -0.032,
+            "fireCount5yr": 0,
+            "riskProb": 0.702,
+            "riskLevel": "High",
+            "riskColor": "#D90429",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 9
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0083",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.47647513080365,
+                  36.31308108108105
+                ],
+                [
+                  72.4876502616073,
+                  36.31308108108105
+                ],
+                [
+                  72.4876502616073,
+                  36.322
+                ],
+                [
+                  72.47647513080365,
+                  36.322
+                ],
+                [
+                  72.47647513080365,
+                  36.31308108108105
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0083",
+            "centroidLat": 36.317541,
+            "centroidLon": 72.482063,
+            "areaSqKm": 1,
+            "elevationM": 2113,
+            "slopeDeg": 19.4,
+            "aspectDeg": 348,
+            "annualRainfallMm": 998,
+            "summerTempC": 15.8,
+            "distRoadKm": 0.2,
+            "distSettlementKm": 1.75,
+            "ndviTrendSlope": -0.0163,
+            "ndmiTrendSlope": -0.0119,
+            "lastYearNdviChange": -0.037,
+            "fireCount5yr": 0,
+            "riskProb": 0.692,
+            "riskLevel": "High",
+            "riskColor": "#D90429",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 10
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0021",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.4876502616073,
+                  36.25001801801801
+                ],
+                [
+                  72.49882539241095,
+                  36.25001801801801
+                ],
+                [
+                  72.49882539241095,
+                  36.25902702702702
+                ],
+                [
+                  72.4876502616073,
+                  36.25902702702702
+                ],
+                [
+                  72.4876502616073,
+                  36.25001801801801
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0021",
+            "centroidLat": 36.254523,
+            "centroidLon": 72.493238,
+            "areaSqKm": 1,
+            "elevationM": 2616,
+            "slopeDeg": 31.3,
+            "aspectDeg": 161,
+            "annualRainfallMm": 1112,
+            "summerTempC": 14.2,
+            "distRoadKm": 0.2,
+            "distSettlementKm": 0.48,
+            "ndviTrendSlope": -0.0218,
+            "ndmiTrendSlope": -0.0187,
+            "lastYearNdviChange": -0.025,
+            "fireCount5yr": 0,
+            "riskProb": 0.688,
+            "riskLevel": "High",
+            "riskColor": "#D90429",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 11
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0035",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.54352591562555,
+                  36.25902702702702
+                ],
+                [
+                  72.5547010464292,
+                  36.25902702702702
+                ],
+                [
+                  72.5547010464292,
+                  36.26803603603602
+                ],
+                [
+                  72.54352591562555,
+                  36.26803603603602
+                ],
+                [
+                  72.54352591562555,
+                  36.25902702702702
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0035",
+            "centroidLat": 36.263532,
+            "centroidLon": 72.549113,
+            "areaSqKm": 1,
+            "elevationM": 2871,
+            "slopeDeg": 12.2,
+            "aspectDeg": 85,
+            "annualRainfallMm": 1099,
+            "summerTempC": 12.2,
+            "distRoadKm": 0.36,
+            "distSettlementKm": 1.98,
+            "ndviTrendSlope": -0.0134,
+            "ndmiTrendSlope": -0.0123,
+            "lastYearNdviChange": -0.034,
+            "fireCount5yr": 0,
+            "riskProb": 0.628,
+            "riskLevel": "Moderate",
+            "riskColor": "#F77F00",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 12
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0066",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.4876502616073,
+                  36.29506306306304
+                ],
+                [
+                  72.49882539241095,
+                  36.29506306306304
+                ],
+                [
+                  72.49882539241095,
+                  36.304072072072046
+                ],
+                [
+                  72.4876502616073,
+                  36.304072072072046
+                ],
+                [
+                  72.4876502616073,
+                  36.29506306306304
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0066",
+            "centroidLat": 36.299568,
+            "centroidLon": 72.493238,
+            "areaSqKm": 1,
+            "elevationM": 3160,
+            "slopeDeg": 48.5,
+            "aspectDeg": 179,
+            "annualRainfallMm": 1145,
+            "summerTempC": 11,
+            "distRoadKm": 0.2,
+            "distSettlementKm": 1.69,
+            "ndviTrendSlope": -0.0229,
+            "ndmiTrendSlope": -0.018,
+            "lastYearNdviChange": -0.046,
+            "fireCount5yr": 0,
+            "riskProb": 0.611,
+            "riskLevel": "Moderate",
+            "riskColor": "#F77F00",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 13
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0086",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.5100005232146,
+                  36.31308108108105
+                ],
+                [
+                  72.52117565401825,
+                  36.31308108108105
+                ],
+                [
+                  72.52117565401825,
+                  36.322
+                ],
+                [
+                  72.5100005232146,
+                  36.322
+                ],
+                [
+                  72.5100005232146,
+                  36.31308108108105
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0086",
+            "centroidLat": 36.317541,
+            "centroidLon": 72.515588,
+            "areaSqKm": 1,
+            "elevationM": 2130,
+            "slopeDeg": 45.6,
+            "aspectDeg": 339,
+            "annualRainfallMm": 1025,
+            "summerTempC": 16.3,
+            "distRoadKm": 0.2,
+            "distSettlementKm": 1.19,
+            "ndviTrendSlope": -0.0198,
+            "ndmiTrendSlope": -0.0161,
+            "lastYearNdviChange": -0.039,
+            "fireCount5yr": 0,
+            "riskProb": 0.594,
+            "riskLevel": "Moderate",
+            "riskColor": "#F77F00",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 14
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0019",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.4653,
+                  36.25001801801801
+                ],
+                [
+                  72.47647513080365,
+                  36.25001801801801
+                ],
+                [
+                  72.47647513080365,
+                  36.25902702702702
+                ],
+                [
+                  72.4653,
+                  36.25902702702702
+                ],
+                [
+                  72.4653,
+                  36.25001801801801
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0019",
+            "centroidLat": 36.254523,
+            "centroidLon": 72.470888,
+            "areaSqKm": 1,
+            "elevationM": 2633,
+            "slopeDeg": 35.3,
+            "aspectDeg": 105,
+            "annualRainfallMm": 1095,
+            "summerTempC": 13.6,
+            "distRoadKm": 0.34,
+            "distSettlementKm": 1.19,
+            "ndviTrendSlope": -0.0202,
+            "ndmiTrendSlope": -0.0191,
+            "lastYearNdviChange": -0.031,
+            "fireCount5yr": 0,
+            "riskProb": 0.585,
+            "riskLevel": "Moderate",
+            "riskColor": "#F77F00",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 15
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0029",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.47647513080365,
+                  36.25902702702702
+                ],
+                [
+                  72.4876502616073,
+                  36.25902702702702
+                ],
+                [
+                  72.4876502616073,
+                  36.26803603603602
+                ],
+                [
+                  72.47647513080365,
+                  36.26803603603602
+                ],
+                [
+                  72.47647513080365,
+                  36.25902702702702
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0029",
+            "centroidLat": 36.263532,
+            "centroidLon": 72.482063,
+            "areaSqKm": 1,
+            "elevationM": 2929,
+            "slopeDeg": 22.4,
+            "aspectDeg": 202,
+            "annualRainfallMm": 1090,
+            "summerTempC": 11.1,
+            "distRoadKm": 0.45,
+            "distSettlementKm": 1.47,
+            "ndviTrendSlope": -0.0156,
+            "ndmiTrendSlope": -0.0136,
+            "lastYearNdviChange": -0.026,
+            "fireCount5yr": 0,
+            "riskProb": 0.565,
+            "riskLevel": "Moderate",
+            "riskColor": "#F77F00",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 16
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0015",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.52117565401825,
+                  36.241009009009005
+                ],
+                [
+                  72.5323507848219,
+                  36.241009009009005
+                ],
+                [
+                  72.5323507848219,
+                  36.25001801801801
+                ],
+                [
+                  72.52117565401825,
+                  36.25001801801801
+                ],
+                [
+                  72.52117565401825,
+                  36.241009009009005
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0015",
+            "centroidLat": 36.245514,
+            "centroidLon": 72.526763,
+            "areaSqKm": 1,
+            "elevationM": 2393,
+            "slopeDeg": 36.3,
+            "aspectDeg": 294,
+            "annualRainfallMm": 1026,
+            "summerTempC": 14.7,
+            "distRoadKm": 1.12,
+            "distSettlementKm": 2.29,
+            "ndviTrendSlope": -0.0067,
+            "ndmiTrendSlope": -0.0076,
+            "lastYearNdviChange": -0.01,
+            "fireCount5yr": 2,
+            "riskProb": 0.531,
+            "riskLevel": "Moderate",
+            "riskColor": "#F77F00",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 17
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0040",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.49882539241095,
+                  36.26803603603602
+                ],
+                [
+                  72.5100005232146,
+                  36.26803603603602
+                ],
+                [
+                  72.5100005232146,
+                  36.27704504504503
+                ],
+                [
+                  72.49882539241095,
+                  36.27704504504503
+                ],
+                [
+                  72.49882539241095,
+                  36.26803603603602
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0040",
+            "centroidLat": 36.272541,
+            "centroidLon": 72.504413,
+            "areaSqKm": 1,
+            "elevationM": 2896,
+            "slopeDeg": 29.4,
+            "aspectDeg": 134,
+            "annualRainfallMm": 1144,
+            "summerTempC": 11.5,
+            "distRoadKm": 0.48,
+            "distSettlementKm": 0.72,
+            "ndviTrendSlope": -0.016,
+            "ndmiTrendSlope": -0.0136,
+            "lastYearNdviChange": -0.022,
+            "fireCount5yr": 0,
+            "riskProb": 0.521,
+            "riskLevel": "Moderate",
+            "riskColor": "#F77F00",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 18
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0006",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.52117565401825,
+                  36.232
+                ],
+                [
+                  72.5323507848219,
+                  36.232
+                ],
+                [
+                  72.5323507848219,
+                  36.241009009009005
+                ],
+                [
+                  72.52117565401825,
+                  36.241009009009005
+                ],
+                [
+                  72.52117565401825,
+                  36.232
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0006",
+            "centroidLat": 36.236505,
+            "centroidLon": 72.526763,
+            "areaSqKm": 1,
+            "elevationM": 2489,
+            "slopeDeg": 43.5,
+            "aspectDeg": 357,
+            "annualRainfallMm": 1075,
+            "summerTempC": 14.9,
+            "distRoadKm": 1.09,
+            "distSettlementKm": 1.84,
+            "ndviTrendSlope": -0.0085,
+            "ndmiTrendSlope": -0.0068,
+            "lastYearNdviChange": 0,
+            "fireCount5yr": 2,
+            "riskProb": 0.515,
+            "riskLevel": "Moderate",
+            "riskColor": "#F77F00",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 19
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0045",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.5547010464292,
+                  36.26803603603602
+                ],
+                [
+                  72.5653,
+                  36.26803603603602
+                ],
+                [
+                  72.5653,
+                  36.27704504504503
+                ],
+                [
+                  72.5547010464292,
+                  36.27704504504503
+                ],
+                [
+                  72.5547010464292,
+                  36.26803603603602
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0045",
+            "centroidLat": 36.272541,
+            "centroidLon": 72.560001,
+            "areaSqKm": 1,
+            "elevationM": 3052,
+            "slopeDeg": 49.3,
+            "aspectDeg": 294,
+            "annualRainfallMm": 1125,
+            "summerTempC": 11.8,
+            "distRoadKm": 0.33,
+            "distSettlementKm": 1.85,
+            "ndviTrendSlope": -0.0181,
+            "ndmiTrendSlope": -0.0165,
+            "lastYearNdviChange": -0.017,
+            "fireCount5yr": 0,
+            "riskProb": 0.488,
+            "riskLevel": "Moderate",
+            "riskColor": "#F77F00",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 20
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0073",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.4653,
+                  36.304072072072046
+                ],
+                [
+                  72.47647513080365,
+                  36.304072072072046
+                ],
+                [
+                  72.47647513080365,
+                  36.31308108108105
+                ],
+                [
+                  72.4653,
+                  36.31308108108105
+                ],
+                [
+                  72.4653,
+                  36.304072072072046
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0073",
+            "centroidLat": 36.308577,
+            "centroidLon": 72.470888,
+            "areaSqKm": 1,
+            "elevationM": 1984,
+            "slopeDeg": 39.5,
+            "aspectDeg": 183,
+            "annualRainfallMm": 1030,
+            "summerTempC": 16.7,
+            "distRoadKm": 0.42,
+            "distSettlementKm": 1.5,
+            "ndviTrendSlope": -0.0107,
+            "ndmiTrendSlope": -0.0086,
+            "lastYearNdviChange": -0.02,
+            "fireCount5yr": 0,
+            "riskProb": 0.425,
+            "riskLevel": "Moderate",
+            "riskColor": "#F77F00",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 21
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0020",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.47647513080365,
+                  36.25001801801801
+                ],
+                [
+                  72.4876502616073,
+                  36.25001801801801
+                ],
+                [
+                  72.4876502616073,
+                  36.25902702702702
+                ],
+                [
+                  72.47647513080365,
+                  36.25902702702702
+                ],
+                [
+                  72.47647513080365,
+                  36.25001801801801
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0020",
+            "centroidLat": 36.254523,
+            "centroidLon": 72.482063,
+            "areaSqKm": 1,
+            "elevationM": 2558,
+            "slopeDeg": 47.7,
+            "aspectDeg": 17,
+            "annualRainfallMm": 1058,
+            "summerTempC": 13.7,
+            "distRoadKm": 2.09,
+            "distSettlementKm": 3.76,
+            "ndviTrendSlope": -0.0074,
+            "ndmiTrendSlope": -0.008,
+            "lastYearNdviChange": -0.013,
+            "fireCount5yr": 2,
+            "riskProb": 0.407,
+            "riskLevel": "Moderate",
+            "riskColor": "#F77F00",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 22
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0063",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.5547010464292,
+                  36.286054054054034
+                ],
+                [
+                  72.5653,
+                  36.286054054054034
+                ],
+                [
+                  72.5653,
+                  36.29506306306304
+                ],
+                [
+                  72.5547010464292,
+                  36.29506306306304
+                ],
+                [
+                  72.5547010464292,
+                  36.286054054054034
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0063",
+            "centroidLat": 36.290559,
+            "centroidLon": 72.560001,
+            "areaSqKm": 1,
+            "elevationM": 3048,
+            "slopeDeg": 30.1,
+            "aspectDeg": 111,
+            "annualRainfallMm": 1167,
+            "summerTempC": 11.7,
+            "distRoadKm": 1.31,
+            "distSettlementKm": 2.25,
+            "ndviTrendSlope": -0.0045,
+            "ndmiTrendSlope": -0.0041,
+            "lastYearNdviChange": 0.005,
+            "fireCount5yr": 1,
+            "riskProb": 0.387,
+            "riskLevel": "Moderate",
+            "riskColor": "#F77F00",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 23
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0027",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.5547010464292,
+                  36.25001801801801
+                ],
+                [
+                  72.5653,
+                  36.25001801801801
+                ],
+                [
+                  72.5653,
+                  36.25902702702702
+                ],
+                [
+                  72.5547010464292,
+                  36.25902702702702
+                ],
+                [
+                  72.5547010464292,
+                  36.25001801801801
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0027",
+            "centroidLat": 36.254523,
+            "centroidLon": 72.560001,
+            "areaSqKm": 1,
+            "elevationM": 2541,
+            "slopeDeg": 33.3,
+            "aspectDeg": 303,
+            "annualRainfallMm": 1083,
+            "summerTempC": 13.4,
+            "distRoadKm": 0.88,
+            "distSettlementKm": 1.45,
+            "ndviTrendSlope": -0.0112,
+            "ndmiTrendSlope": -0.0098,
+            "lastYearNdviChange": -0.024,
+            "fireCount5yr": 0,
+            "riskProb": 0.36,
+            "riskLevel": "Moderate",
+            "riskColor": "#F77F00",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 24
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0038",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.47647513080365,
+                  36.26803603603602
+                ],
+                [
+                  72.4876502616073,
+                  36.26803603603602
+                ],
+                [
+                  72.4876502616073,
+                  36.27704504504503
+                ],
+                [
+                  72.47647513080365,
+                  36.27704504504503
+                ],
+                [
+                  72.47647513080365,
+                  36.26803603603602
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0038",
+            "centroidLat": 36.272541,
+            "centroidLon": 72.482063,
+            "areaSqKm": 1,
+            "elevationM": 2762,
+            "slopeDeg": 30.9,
+            "aspectDeg": 167,
+            "annualRainfallMm": 1123,
+            "summerTempC": 12.2,
+            "distRoadKm": 0.97,
+            "distSettlementKm": 1.83,
+            "ndviTrendSlope": -0.0107,
+            "ndmiTrendSlope": -0.0085,
+            "lastYearNdviChange": -0.023,
+            "fireCount5yr": 0,
+            "riskProb": 0.355,
+            "riskLevel": "Moderate",
+            "riskColor": "#F77F00",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 25
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0069",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.52117565401825,
+                  36.29506306306304
+                ],
+                [
+                  72.5323507848219,
+                  36.29506306306304
+                ],
+                [
+                  72.5323507848219,
+                  36.304072072072046
+                ],
+                [
+                  72.52117565401825,
+                  36.304072072072046
+                ],
+                [
+                  72.52117565401825,
+                  36.29506306306304
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0069",
+            "centroidLat": 36.299568,
+            "centroidLon": 72.526763,
+            "areaSqKm": 1,
+            "elevationM": 3107,
+            "slopeDeg": 14.6,
+            "aspectDeg": 215,
+            "annualRainfallMm": 1098,
+            "summerTempC": 10.7,
+            "distRoadKm": 1.29,
+            "distSettlementKm": 2.22,
+            "ndviTrendSlope": -0.0056,
+            "ndmiTrendSlope": -0.0031,
+            "lastYearNdviChange": -0.015,
+            "fireCount5yr": 0,
+            "riskProb": 0.353,
+            "riskLevel": "Moderate",
+            "riskColor": "#F77F00",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 26
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0050",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.5100005232146,
+                  36.27704504504503
+                ],
+                [
+                  72.52117565401825,
+                  36.27704504504503
+                ],
+                [
+                  72.52117565401825,
+                  36.286054054054034
+                ],
+                [
+                  72.5100005232146,
+                  36.286054054054034
+                ],
+                [
+                  72.5100005232146,
+                  36.27704504504503
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0050",
+            "centroidLat": 36.28155,
+            "centroidLon": 72.515588,
+            "areaSqKm": 1,
+            "elevationM": 2966,
+            "slopeDeg": 19.9,
+            "aspectDeg": 204,
+            "annualRainfallMm": 1130,
+            "summerTempC": 11.4,
+            "distRoadKm": 1.25,
+            "distSettlementKm": 2.8,
+            "ndviTrendSlope": -0.007,
+            "ndmiTrendSlope": -0.0045,
+            "lastYearNdviChange": -0.021,
+            "fireCount5yr": 0,
+            "riskProb": 0.344,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 27
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0062",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.54352591562555,
+                  36.286054054054034
+                ],
+                [
+                  72.5547010464292,
+                  36.286054054054034
+                ],
+                [
+                  72.5547010464292,
+                  36.29506306306304
+                ],
+                [
+                  72.54352591562555,
+                  36.29506306306304
+                ],
+                [
+                  72.54352591562555,
+                  36.286054054054034
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0062",
+            "centroidLat": 36.290559,
+            "centroidLon": 72.549113,
+            "areaSqKm": 1,
+            "elevationM": 3059,
+            "slopeDeg": 25.6,
+            "aspectDeg": 313,
+            "annualRainfallMm": 1112,
+            "summerTempC": 11.8,
+            "distRoadKm": 1.38,
+            "distSettlementKm": 2.12,
+            "ndviTrendSlope": -0.0103,
+            "ndmiTrendSlope": -0.0094,
+            "lastYearNdviChange": -0.019,
+            "fireCount5yr": 0,
+            "riskProb": 0.338,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 28
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0054",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.5547010464292,
+                  36.27704504504503
+                ],
+                [
+                  72.5653,
+                  36.27704504504503
+                ],
+                [
+                  72.5653,
+                  36.286054054054034
+                ],
+                [
+                  72.5547010464292,
+                  36.286054054054034
+                ],
+                [
+                  72.5547010464292,
+                  36.27704504504503
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0054",
+            "centroidLat": 36.28155,
+            "centroidLon": 72.560001,
+            "areaSqKm": 1,
+            "elevationM": 2909,
+            "slopeDeg": 17.6,
+            "aspectDeg": 304,
+            "annualRainfallMm": 1149,
+            "summerTempC": 12,
+            "distRoadKm": 1.38,
+            "distSettlementKm": 2.49,
+            "ndviTrendSlope": -0.005,
+            "ndmiTrendSlope": -0.0026,
+            "lastYearNdviChange": -0.017,
+            "fireCount5yr": 0,
+            "riskProb": 0.325,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 29
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0014",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.5100005232146,
+                  36.241009009009005
+                ],
+                [
+                  72.52117565401825,
+                  36.241009009009005
+                ],
+                [
+                  72.52117565401825,
+                  36.25001801801801
+                ],
+                [
+                  72.5100005232146,
+                  36.25001801801801
+                ],
+                [
+                  72.5100005232146,
+                  36.241009009009005
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0014",
+            "centroidLat": 36.245514,
+            "centroidLon": 72.515588,
+            "areaSqKm": 1,
+            "elevationM": 2578,
+            "slopeDeg": 13.4,
+            "aspectDeg": 247,
+            "annualRainfallMm": 1102,
+            "summerTempC": 14.1,
+            "distRoadKm": 1.68,
+            "distSettlementKm": 3.44,
+            "ndviTrendSlope": -0.0023,
+            "ndmiTrendSlope": 0,
+            "lastYearNdviChange": 0.007,
+            "fireCount5yr": 0,
+            "riskProb": 0.3,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 30
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0068",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.5100005232146,
+                  36.29506306306304
+                ],
+                [
+                  72.52117565401825,
+                  36.29506306306304
+                ],
+                [
+                  72.52117565401825,
+                  36.304072072072046
+                ],
+                [
+                  72.5100005232146,
+                  36.304072072072046
+                ],
+                [
+                  72.5100005232146,
+                  36.29506306306304
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0068",
+            "centroidLat": 36.299568,
+            "centroidLon": 72.515588,
+            "areaSqKm": 1,
+            "elevationM": 3053,
+            "slopeDeg": 46.9,
+            "aspectDeg": 83,
+            "annualRainfallMm": 1097,
+            "summerTempC": 11.4,
+            "distRoadKm": 0.76,
+            "distSettlementKm": 1.56,
+            "ndviTrendSlope": -0.0087,
+            "ndmiTrendSlope": -0.0074,
+            "lastYearNdviChange": -0.023,
+            "fireCount5yr": 0,
+            "riskProb": 0.287,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 31
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0075",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.4876502616073,
+                  36.304072072072046
+                ],
+                [
+                  72.49882539241095,
+                  36.304072072072046
+                ],
+                [
+                  72.49882539241095,
+                  36.31308108108105
+                ],
+                [
+                  72.4876502616073,
+                  36.31308108108105
+                ],
+                [
+                  72.4876502616073,
+                  36.304072072072046
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0075",
+            "centroidLat": 36.308577,
+            "centroidLon": 72.493238,
+            "areaSqKm": 1,
+            "elevationM": 2079,
+            "slopeDeg": 14.5,
+            "aspectDeg": 21,
+            "annualRainfallMm": 1048,
+            "summerTempC": 15.9,
+            "distRoadKm": 3.18,
+            "distSettlementKm": 5.13,
+            "ndviTrendSlope": -0.0056,
+            "ndmiTrendSlope": -0.0041,
+            "lastYearNdviChange": 0.003,
+            "fireCount5yr": 0,
+            "riskProb": 0.279,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 32
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0057",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.4876502616073,
+                  36.286054054054034
+                ],
+                [
+                  72.49882539241095,
+                  36.286054054054034
+                ],
+                [
+                  72.49882539241095,
+                  36.29506306306304
+                ],
+                [
+                  72.4876502616073,
+                  36.29506306306304
+                ],
+                [
+                  72.4876502616073,
+                  36.286054054054034
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0057",
+            "centroidLat": 36.290559,
+            "centroidLon": 72.493238,
+            "areaSqKm": 1,
+            "elevationM": 3248,
+            "slopeDeg": 13,
+            "aspectDeg": 342,
+            "annualRainfallMm": 1156,
+            "summerTempC": 9.9,
+            "distRoadKm": 4.79,
+            "distSettlementKm": 6.85,
+            "ndviTrendSlope": -0.005,
+            "ndmiTrendSlope": -0.0057,
+            "lastYearNdviChange": 0.006,
+            "fireCount5yr": 0,
+            "riskProb": 0.261,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 33
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0085",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.49882539241095,
+                  36.31308108108105
+                ],
+                [
+                  72.5100005232146,
+                  36.31308108108105
+                ],
+                [
+                  72.5100005232146,
+                  36.322
+                ],
+                [
+                  72.49882539241095,
+                  36.322
+                ],
+                [
+                  72.49882539241095,
+                  36.31308108108105
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0085",
+            "centroidLat": 36.317541,
+            "centroidLon": 72.504413,
+            "areaSqKm": 1,
+            "elevationM": 2369,
+            "slopeDeg": 27.9,
+            "aspectDeg": 237,
+            "annualRainfallMm": 1080,
+            "summerTempC": 14.6,
+            "distRoadKm": 1.45,
+            "distSettlementKm": 2.7,
+            "ndviTrendSlope": -0.0028,
+            "ndmiTrendSlope": -0.0015,
+            "lastYearNdviChange": -0.01,
+            "fireCount5yr": 0,
+            "riskProb": 0.252,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 34
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0032",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.5100005232146,
+                  36.25902702702702
+                ],
+                [
+                  72.52117565401825,
+                  36.25902702702702
+                ],
+                [
+                  72.52117565401825,
+                  36.26803603603602
+                ],
+                [
+                  72.5100005232146,
+                  36.26803603603602
+                ],
+                [
+                  72.5100005232146,
+                  36.25902702702702
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0032",
+            "centroidLat": 36.263532,
+            "centroidLon": 72.515588,
+            "areaSqKm": 1,
+            "elevationM": 2805,
+            "slopeDeg": 33.3,
+            "aspectDeg": 78,
+            "annualRainfallMm": 1115,
+            "summerTempC": 13,
+            "distRoadKm": 1.26,
+            "distSettlementKm": 2.33,
+            "ndviTrendSlope": -0.0038,
+            "ndmiTrendSlope": -0.005,
+            "lastYearNdviChange": -0.014,
+            "fireCount5yr": 0,
+            "riskProb": 0.25,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 35
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0030",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.4876502616073,
+                  36.25902702702702
+                ],
+                [
+                  72.49882539241095,
+                  36.25902702702702
+                ],
+                [
+                  72.49882539241095,
+                  36.26803603603602
+                ],
+                [
+                  72.4876502616073,
+                  36.26803603603602
+                ],
+                [
+                  72.4876502616073,
+                  36.25902702702702
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0030",
+            "centroidLat": 36.263532,
+            "centroidLon": 72.493238,
+            "areaSqKm": 1,
+            "elevationM": 2886,
+            "slopeDeg": 19.4,
+            "aspectDeg": 85,
+            "annualRainfallMm": 1132,
+            "summerTempC": 11.8,
+            "distRoadKm": 4.06,
+            "distSettlementKm": 6.55,
+            "ndviTrendSlope": -0.0055,
+            "ndmiTrendSlope": -0.0052,
+            "lastYearNdviChange": -0.001,
+            "fireCount5yr": 0,
+            "riskProb": 0.245,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 36
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0058",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.49882539241095,
+                  36.286054054054034
+                ],
+                [
+                  72.5100005232146,
+                  36.286054054054034
+                ],
+                [
+                  72.5100005232146,
+                  36.29506306306304
+                ],
+                [
+                  72.49882539241095,
+                  36.29506306306304
+                ],
+                [
+                  72.49882539241095,
+                  36.286054054054034
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0058",
+            "centroidLat": 36.290559,
+            "centroidLon": 72.504413,
+            "areaSqKm": 1,
+            "elevationM": 3181,
+            "slopeDeg": 28.6,
+            "aspectDeg": 218,
+            "annualRainfallMm": 1147,
+            "summerTempC": 9.8,
+            "distRoadKm": 1.98,
+            "distSettlementKm": 4.19,
+            "ndviTrendSlope": -0.0048,
+            "ndmiTrendSlope": -0.003,
+            "lastYearNdviChange": -0.01,
+            "fireCount5yr": 0,
+            "riskProb": 0.242,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 37
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0089",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.54352591562555,
+                  36.31308108108105
+                ],
+                [
+                  72.5547010464292,
+                  36.31308108108105
+                ],
+                [
+                  72.5547010464292,
+                  36.322
+                ],
+                [
+                  72.54352591562555,
+                  36.322
+                ],
+                [
+                  72.54352591562555,
+                  36.31308108108105
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0089",
+            "centroidLat": 36.317541,
+            "centroidLon": 72.549113,
+            "areaSqKm": 1,
+            "elevationM": 2376,
+            "slopeDeg": 13.1,
+            "aspectDeg": 222,
+            "annualRainfallMm": 1097,
+            "summerTempC": 15.6,
+            "distRoadKm": 4.01,
+            "distSettlementKm": 6.55,
+            "ndviTrendSlope": -0.0018,
+            "ndmiTrendSlope": -0.0024,
+            "lastYearNdviChange": -0.008,
+            "fireCount5yr": 0,
+            "riskProb": 0.241,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 38
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0043",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.5323507848219,
+                  36.26803603603602
+                ],
+                [
+                  72.54352591562555,
+                  36.26803603603602
+                ],
+                [
+                  72.54352591562555,
+                  36.27704504504503
+                ],
+                [
+                  72.5323507848219,
+                  36.27704504504503
+                ],
+                [
+                  72.5323507848219,
+                  36.26803603603602
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0043",
+            "centroidLat": 36.272541,
+            "centroidLon": 72.537938,
+            "areaSqKm": 1,
+            "elevationM": 2945,
+            "slopeDeg": 13.8,
+            "aspectDeg": 233,
+            "annualRainfallMm": 1163,
+            "summerTempC": 12.3,
+            "distRoadKm": 5.53,
+            "distSettlementKm": 9,
+            "ndviTrendSlope": -0.0032,
+            "ndmiTrendSlope": -0.0021,
+            "lastYearNdviChange": -0.001,
+            "fireCount5yr": 0,
+            "riskProb": 0.237,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 39
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0039",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.4876502616073,
+                  36.26803603603602
+                ],
+                [
+                  72.49882539241095,
+                  36.26803603603602
+                ],
+                [
+                  72.49882539241095,
+                  36.27704504504503
+                ],
+                [
+                  72.4876502616073,
+                  36.27704504504503
+                ],
+                [
+                  72.4876502616073,
+                  36.26803603603602
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0039",
+            "centroidLat": 36.272541,
+            "centroidLon": 72.493238,
+            "areaSqKm": 1,
+            "elevationM": 2703,
+            "slopeDeg": 14,
+            "aspectDeg": 201,
+            "annualRainfallMm": 1133,
+            "summerTempC": 12.5,
+            "distRoadKm": 3.48,
+            "distSettlementKm": 5.88,
+            "ndviTrendSlope": -0.0008,
+            "ndmiTrendSlope": 0.0003,
+            "lastYearNdviChange": 0.003,
+            "fireCount5yr": 0,
+            "riskProb": 0.236,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 40
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0016",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.5323507848219,
+                  36.241009009009005
+                ],
+                [
+                  72.54352591562555,
+                  36.241009009009005
+                ],
+                [
+                  72.54352591562555,
+                  36.25001801801801
+                ],
+                [
+                  72.5323507848219,
+                  36.25001801801801
+                ],
+                [
+                  72.5323507848219,
+                  36.241009009009005
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0016",
+            "centroidLat": 36.245514,
+            "centroidLon": 72.537938,
+            "areaSqKm": 1,
+            "elevationM": 2633,
+            "slopeDeg": 16,
+            "aspectDeg": 320,
+            "annualRainfallMm": 1081,
+            "summerTempC": 13,
+            "distRoadKm": 5.24,
+            "distSettlementKm": 7.59,
+            "ndviTrendSlope": -0.0035,
+            "ndmiTrendSlope": -0.002,
+            "lastYearNdviChange": -0.013,
+            "fireCount5yr": 0,
+            "riskProb": 0.233,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 41
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0022",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.49882539241095,
+                  36.25001801801801
+                ],
+                [
+                  72.5100005232146,
+                  36.25001801801801
+                ],
+                [
+                  72.5100005232146,
+                  36.25902702702702
+                ],
+                [
+                  72.49882539241095,
+                  36.25902702702702
+                ],
+                [
+                  72.49882539241095,
+                  36.25001801801801
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0022",
+            "centroidLat": 36.254523,
+            "centroidLon": 72.504413,
+            "areaSqKm": 1,
+            "elevationM": 2509,
+            "slopeDeg": 14.6,
+            "aspectDeg": 294,
+            "annualRainfallMm": 1069,
+            "summerTempC": 14.3,
+            "distRoadKm": 4.82,
+            "distSettlementKm": 8.09,
+            "ndviTrendSlope": -0.0019,
+            "ndmiTrendSlope": -0.0018,
+            "lastYearNdviChange": 0.005,
+            "fireCount5yr": 0,
+            "riskProb": 0.228,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 42
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0025",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.5323507848219,
+                  36.25001801801801
+                ],
+                [
+                  72.54352591562555,
+                  36.25001801801801
+                ],
+                [
+                  72.54352591562555,
+                  36.25902702702702
+                ],
+                [
+                  72.5323507848219,
+                  36.25902702702702
+                ],
+                [
+                  72.5323507848219,
+                  36.25001801801801
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0025",
+            "centroidLat": 36.254523,
+            "centroidLon": 72.537938,
+            "areaSqKm": 1,
+            "elevationM": 2515,
+            "slopeDeg": 35.6,
+            "aspectDeg": 254,
+            "annualRainfallMm": 1031,
+            "summerTempC": 14,
+            "distRoadKm": 1.49,
+            "distSettlementKm": 2.38,
+            "ndviTrendSlope": -0.0036,
+            "ndmiTrendSlope": -0.0016,
+            "lastYearNdviChange": -0.021,
+            "fireCount5yr": 0,
+            "riskProb": 0.225,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 43
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0052",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.5323507848219,
+                  36.27704504504503
+                ],
+                [
+                  72.54352591562555,
+                  36.27704504504503
+                ],
+                [
+                  72.54352591562555,
+                  36.286054054054034
+                ],
+                [
+                  72.5323507848219,
+                  36.286054054054034
+                ],
+                [
+                  72.5323507848219,
+                  36.27704504504503
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0052",
+            "centroidLat": 36.28155,
+            "centroidLon": 72.537938,
+            "areaSqKm": 1,
+            "elevationM": 3119,
+            "slopeDeg": 19.8,
+            "aspectDeg": 0,
+            "annualRainfallMm": 1136,
+            "summerTempC": 10.1,
+            "distRoadKm": 3.18,
+            "distSettlementKm": 4.64,
+            "ndviTrendSlope": -0.0016,
+            "ndmiTrendSlope": -0.0017,
+            "lastYearNdviChange": -0.012,
+            "fireCount5yr": 0,
+            "riskProb": 0.223,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 44
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0001",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.4653,
+                  36.232
+                ],
+                [
+                  72.47647513080365,
+                  36.232
+                ],
+                [
+                  72.47647513080365,
+                  36.241009009009005
+                ],
+                [
+                  72.4653,
+                  36.241009009009005
+                ],
+                [
+                  72.4653,
+                  36.232
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0001",
+            "centroidLat": 36.236505,
+            "centroidLon": 72.470888,
+            "areaSqKm": 1,
+            "elevationM": 2511,
+            "slopeDeg": 21.9,
+            "aspectDeg": 43,
+            "annualRainfallMm": 1081,
+            "summerTempC": 14.3,
+            "distRoadKm": 4.11,
+            "distSettlementKm": 5.98,
+            "ndviTrendSlope": -0.0037,
+            "ndmiTrendSlope": -0.0044,
+            "lastYearNdviChange": 0,
+            "fireCount5yr": 0,
+            "riskProb": 0.22,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 45
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0044",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.54352591562555,
+                  36.26803603603602
+                ],
+                [
+                  72.5547010464292,
+                  36.26803603603602
+                ],
+                [
+                  72.5547010464292,
+                  36.27704504504503
+                ],
+                [
+                  72.54352591562555,
+                  36.27704504504503
+                ],
+                [
+                  72.54352591562555,
+                  36.26803603603602
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0044",
+            "centroidLat": 36.272541,
+            "centroidLon": 72.549113,
+            "areaSqKm": 1,
+            "elevationM": 3055,
+            "slopeDeg": 23.8,
+            "aspectDeg": 313,
+            "annualRainfallMm": 1095,
+            "summerTempC": 10.8,
+            "distRoadKm": 5.2,
+            "distSettlementKm": 7.54,
+            "ndviTrendSlope": -0.0058,
+            "ndmiTrendSlope": -0.0065,
+            "lastYearNdviChange": -0.006,
+            "fireCount5yr": 0,
+            "riskProb": 0.22,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 46
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0009",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.5547010464292,
+                  36.232
+                ],
+                [
+                  72.5653,
+                  36.232
+                ],
+                [
+                  72.5653,
+                  36.241009009009005
+                ],
+                [
+                  72.5547010464292,
+                  36.241009009009005
+                ],
+                [
+                  72.5547010464292,
+                  36.232
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0009",
+            "centroidLat": 36.236505,
+            "centroidLon": 72.560001,
+            "areaSqKm": 1,
+            "elevationM": 2501,
+            "slopeDeg": 24.6,
+            "aspectDeg": 9,
+            "annualRainfallMm": 1076,
+            "summerTempC": 13.6,
+            "distRoadKm": 3.06,
+            "distSettlementKm": 4.33,
+            "ndviTrendSlope": -0.0032,
+            "ndmiTrendSlope": -0.0024,
+            "lastYearNdviChange": -0.007,
+            "fireCount5yr": 0,
+            "riskProb": 0.219,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 47
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0048",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.4876502616073,
+                  36.27704504504503
+                ],
+                [
+                  72.49882539241095,
+                  36.27704504504503
+                ],
+                [
+                  72.49882539241095,
+                  36.286054054054034
+                ],
+                [
+                  72.4876502616073,
+                  36.286054054054034
+                ],
+                [
+                  72.4876502616073,
+                  36.27704504504503
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0048",
+            "centroidLat": 36.28155,
+            "centroidLon": 72.493238,
+            "areaSqKm": 1,
+            "elevationM": 2970,
+            "slopeDeg": 24,
+            "aspectDeg": 260,
+            "annualRainfallMm": 1121,
+            "summerTempC": 11.3,
+            "distRoadKm": 4.56,
+            "distSettlementKm": 7.44,
+            "ndviTrendSlope": -0.0046,
+            "ndmiTrendSlope": -0.0047,
+            "lastYearNdviChange": -0.007,
+            "fireCount5yr": 0,
+            "riskProb": 0.215,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 48
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0059",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.5100005232146,
+                  36.286054054054034
+                ],
+                [
+                  72.52117565401825,
+                  36.286054054054034
+                ],
+                [
+                  72.52117565401825,
+                  36.29506306306304
+                ],
+                [
+                  72.5100005232146,
+                  36.29506306306304
+                ],
+                [
+                  72.5100005232146,
+                  36.286054054054034
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0059",
+            "centroidLat": 36.290559,
+            "centroidLon": 72.515588,
+            "areaSqKm": 1,
+            "elevationM": 2948,
+            "slopeDeg": 26.2,
+            "aspectDeg": 138,
+            "annualRainfallMm": 1159,
+            "summerTempC": 11.3,
+            "distRoadKm": 3.6,
+            "distSettlementKm": 5.88,
+            "ndviTrendSlope": -0.0042,
+            "ndmiTrendSlope": -0.0042,
+            "lastYearNdviChange": -0.01,
+            "fireCount5yr": 0,
+            "riskProb": 0.213,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 49
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0080",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.54352591562555,
+                  36.304072072072046
+                ],
+                [
+                  72.5547010464292,
+                  36.304072072072046
+                ],
+                [
+                  72.5547010464292,
+                  36.31308108108105
+                ],
+                [
+                  72.54352591562555,
+                  36.31308108108105
+                ],
+                [
+                  72.54352591562555,
+                  36.304072072072046
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0080",
+            "centroidLat": 36.308577,
+            "centroidLon": 72.549113,
+            "areaSqKm": 1,
+            "elevationM": 2148,
+            "slopeDeg": 18,
+            "aspectDeg": 74,
+            "annualRainfallMm": 992,
+            "summerTempC": 15.7,
+            "distRoadKm": 4.4,
+            "distSettlementKm": 7.31,
+            "ndviTrendSlope": 0,
+            "ndmiTrendSlope": -0.0015,
+            "lastYearNdviChange": -0.013,
+            "fireCount5yr": 0,
+            "riskProb": 0.204,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 50
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0028",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.4653,
+                  36.25902702702702
+                ],
+                [
+                  72.47647513080365,
+                  36.25902702702702
+                ],
+                [
+                  72.47647513080365,
+                  36.26803603603602
+                ],
+                [
+                  72.4653,
+                  36.26803603603602
+                ],
+                [
+                  72.4653,
+                  36.25902702702702
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0028",
+            "centroidLat": 36.263532,
+            "centroidLon": 72.470888,
+            "areaSqKm": 1,
+            "elevationM": 2885,
+            "slopeDeg": 26.9,
+            "aspectDeg": 71,
+            "annualRainfallMm": 1139,
+            "summerTempC": 12.7,
+            "distRoadKm": 4.48,
+            "distSettlementKm": 7.47,
+            "ndviTrendSlope": -0.0041,
+            "ndmiTrendSlope": -0.0028,
+            "lastYearNdviChange": -0.015,
+            "fireCount5yr": 0,
+            "riskProb": 0.201,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 51
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0074",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.47647513080365,
+                  36.304072072072046
+                ],
+                [
+                  72.4876502616073,
+                  36.304072072072046
+                ],
+                [
+                  72.4876502616073,
+                  36.31308108108105
+                ],
+                [
+                  72.47647513080365,
+                  36.31308108108105
+                ],
+                [
+                  72.47647513080365,
+                  36.304072072072046
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0074",
+            "centroidLat": 36.308577,
+            "centroidLon": 72.482063,
+            "areaSqKm": 1,
+            "elevationM": 1968,
+            "slopeDeg": 29,
+            "aspectDeg": 327,
+            "annualRainfallMm": 990,
+            "summerTempC": 16.8,
+            "distRoadKm": 5.25,
+            "distSettlementKm": 7.85,
+            "ndviTrendSlope": -0.0057,
+            "ndmiTrendSlope": -0.0036,
+            "lastYearNdviChange": -0.001,
+            "fireCount5yr": 0,
+            "riskProb": 0.2,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 52
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0088",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.5323507848219,
+                  36.31308108108105
+                ],
+                [
+                  72.54352591562555,
+                  36.31308108108105
+                ],
+                [
+                  72.54352591562555,
+                  36.322
+                ],
+                [
+                  72.5323507848219,
+                  36.322
+                ],
+                [
+                  72.5323507848219,
+                  36.31308108108105
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0088",
+            "centroidLat": 36.317541,
+            "centroidLon": 72.537938,
+            "areaSqKm": 1,
+            "elevationM": 2375,
+            "slopeDeg": 29.2,
+            "aspectDeg": 286,
+            "annualRainfallMm": 1083,
+            "summerTempC": 14.3,
+            "distRoadKm": 5.04,
+            "distSettlementKm": 7.96,
+            "ndviTrendSlope": -0.0054,
+            "ndmiTrendSlope": -0.0047,
+            "lastYearNdviChange": -0.002,
+            "fireCount5yr": 0,
+            "riskProb": 0.198,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 53
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0072",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.5547010464292,
+                  36.29506306306304
+                ],
+                [
+                  72.5653,
+                  36.29506306306304
+                ],
+                [
+                  72.5653,
+                  36.304072072072046
+                ],
+                [
+                  72.5547010464292,
+                  36.304072072072046
+                ],
+                [
+                  72.5547010464292,
+                  36.29506306306304
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0072",
+            "centroidLat": 36.299568,
+            "centroidLon": 72.560001,
+            "areaSqKm": 1,
+            "elevationM": 3236,
+            "slopeDeg": 21.3,
+            "aspectDeg": 186,
+            "annualRainfallMm": 1158,
+            "summerTempC": 10.7,
+            "distRoadKm": 4.61,
+            "distSettlementKm": 7.38,
+            "ndviTrendSlope": -0.0004,
+            "ndmiTrendSlope": -0.0022,
+            "lastYearNdviChange": -0.014,
+            "fireCount5yr": 0,
+            "riskProb": 0.194,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 54
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0023",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.5100005232146,
+                  36.25001801801801
+                ],
+                [
+                  72.52117565401825,
+                  36.25001801801801
+                ],
+                [
+                  72.52117565401825,
+                  36.25902702702702
+                ],
+                [
+                  72.5100005232146,
+                  36.25902702702702
+                ],
+                [
+                  72.5100005232146,
+                  36.25001801801801
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0023",
+            "centroidLat": 36.254523,
+            "centroidLon": 72.515588,
+            "areaSqKm": 1,
+            "elevationM": 2671,
+            "slopeDeg": 20.9,
+            "aspectDeg": 230,
+            "annualRainfallMm": 1126,
+            "summerTempC": 13.3,
+            "distRoadKm": 4.73,
+            "distSettlementKm": 6.77,
+            "ndviTrendSlope": -0.0001,
+            "ndmiTrendSlope": 0.0007,
+            "lastYearNdviChange": -0.002,
+            "fireCount5yr": 0,
+            "riskProb": 0.192,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 55
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0037",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.4653,
+                  36.26803603603602
+                ],
+                [
+                  72.47647513080365,
+                  36.26803603603602
+                ],
+                [
+                  72.47647513080365,
+                  36.27704504504503
+                ],
+                [
+                  72.4653,
+                  36.27704504504503
+                ],
+                [
+                  72.4653,
+                  36.26803603603602
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0037",
+            "centroidLat": 36.272541,
+            "centroidLon": 72.470888,
+            "areaSqKm": 1,
+            "elevationM": 2692,
+            "slopeDeg": 27.9,
+            "aspectDeg": 79,
+            "annualRainfallMm": 1098,
+            "summerTempC": 13.1,
+            "distRoadKm": 5.57,
+            "distSettlementKm": 7.86,
+            "ndviTrendSlope": -0.0039,
+            "ndmiTrendSlope": -0.0017,
+            "lastYearNdviChange": 0.004,
+            "fireCount5yr": 0,
+            "riskProb": 0.189,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 56
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0056",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.47647513080365,
+                  36.286054054054034
+                ],
+                [
+                  72.4876502616073,
+                  36.286054054054034
+                ],
+                [
+                  72.4876502616073,
+                  36.29506306306304
+                ],
+                [
+                  72.47647513080365,
+                  36.29506306306304
+                ],
+                [
+                  72.47647513080365,
+                  36.286054054054034
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0056",
+            "centroidLat": 36.290559,
+            "centroidLon": 72.482063,
+            "areaSqKm": 1,
+            "elevationM": 3106,
+            "slopeDeg": 23.7,
+            "aspectDeg": 17,
+            "annualRainfallMm": 1132,
+            "summerTempC": 11.2,
+            "distRoadKm": 4.44,
+            "distSettlementKm": 6.51,
+            "ndviTrendSlope": -0.0004,
+            "ndmiTrendSlope": 0.0001,
+            "lastYearNdviChange": -0.01,
+            "fireCount5yr": 0,
+            "riskProb": 0.187,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 57
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0024",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.52117565401825,
+                  36.25001801801801
+                ],
+                [
+                  72.5323507848219,
+                  36.25001801801801
+                ],
+                [
+                  72.5323507848219,
+                  36.25902702702702
+                ],
+                [
+                  72.52117565401825,
+                  36.25902702702702
+                ],
+                [
+                  72.52117565401825,
+                  36.25001801801801
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0024",
+            "centroidLat": 36.254523,
+            "centroidLon": 72.526763,
+            "areaSqKm": 1,
+            "elevationM": 2606,
+            "slopeDeg": 41.6,
+            "aspectDeg": 191,
+            "annualRainfallMm": 1105,
+            "summerTempC": 13.6,
+            "distRoadKm": 3.1,
+            "distSettlementKm": 4.83,
+            "ndviTrendSlope": -0.0067,
+            "ndmiTrendSlope": -0.007,
+            "lastYearNdviChange": -0.011,
+            "fireCount5yr": 0,
+            "riskProb": 0.182,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 58
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0087",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.52117565401825,
+                  36.31308108108105
+                ],
+                [
+                  72.5323507848219,
+                  36.31308108108105
+                ],
+                [
+                  72.5323507848219,
+                  36.322
+                ],
+                [
+                  72.52117565401825,
+                  36.322
+                ],
+                [
+                  72.52117565401825,
+                  36.31308108108105
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0087",
+            "centroidLat": 36.317541,
+            "centroidLon": 72.526763,
+            "areaSqKm": 1,
+            "elevationM": 2167,
+            "slopeDeg": 33.6,
+            "aspectDeg": 260,
+            "annualRainfallMm": 1037,
+            "summerTempC": 15.7,
+            "distRoadKm": 3.75,
+            "distSettlementKm": 6.06,
+            "ndviTrendSlope": -0.0027,
+            "ndmiTrendSlope": -0.0011,
+            "lastYearNdviChange": 0.004,
+            "fireCount5yr": 0,
+            "riskProb": 0.175,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 59
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0053",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.54352591562555,
+                  36.27704504504503
+                ],
+                [
+                  72.5547010464292,
+                  36.27704504504503
+                ],
+                [
+                  72.5547010464292,
+                  36.286054054054034
+                ],
+                [
+                  72.54352591562555,
+                  36.286054054054034
+                ],
+                [
+                  72.54352591562555,
+                  36.27704504504503
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0053",
+            "centroidLat": 36.28155,
+            "centroidLon": 72.549113,
+            "areaSqKm": 1,
+            "elevationM": 3037,
+            "slopeDeg": 49.8,
+            "aspectDeg": 58,
+            "annualRainfallMm": 1105,
+            "summerTempC": 11.6,
+            "distRoadKm": 1.4,
+            "distSettlementKm": 3.31,
+            "ndviTrendSlope": -0.0028,
+            "ndmiTrendSlope": -0.0032,
+            "lastYearNdviChange": -0.018,
+            "fireCount5yr": 0,
+            "riskProb": 0.173,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 60
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0002",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.47647513080365,
+                  36.232
+                ],
+                [
+                  72.4876502616073,
+                  36.232
+                ],
+                [
+                  72.4876502616073,
+                  36.241009009009005
+                ],
+                [
+                  72.47647513080365,
+                  36.241009009009005
+                ],
+                [
+                  72.47647513080365,
+                  36.232
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0002",
+            "centroidLat": 36.236505,
+            "centroidLon": 72.482063,
+            "areaSqKm": 1,
+            "elevationM": 2621,
+            "slopeDeg": 48.3,
+            "aspectDeg": 261,
+            "annualRainfallMm": 1110,
+            "summerTempC": 13.5,
+            "distRoadKm": 2.76,
+            "distSettlementKm": 4.32,
+            "ndviTrendSlope": -0.0071,
+            "ndmiTrendSlope": -0.0051,
+            "lastYearNdviChange": 0,
+            "fireCount5yr": 0,
+            "riskProb": 0.168,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 61
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0060",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.52117565401825,
+                  36.286054054054034
+                ],
+                [
+                  72.5323507848219,
+                  36.286054054054034
+                ],
+                [
+                  72.5323507848219,
+                  36.29506306306304
+                ],
+                [
+                  72.52117565401825,
+                  36.29506306306304
+                ],
+                [
+                  72.52117565401825,
+                  36.286054054054034
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0060",
+            "centroidLat": 36.290559,
+            "centroidLon": 72.526763,
+            "areaSqKm": 1,
+            "elevationM": 2967,
+            "slopeDeg": 46.3,
+            "aspectDeg": 345,
+            "annualRainfallMm": 1094,
+            "summerTempC": 12,
+            "distRoadKm": 2.68,
+            "distSettlementKm": 4.86,
+            "ndviTrendSlope": -0.0058,
+            "ndmiTrendSlope": -0.0042,
+            "lastYearNdviChange": -0.017,
+            "fireCount5yr": 0,
+            "riskProb": 0.168,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 62
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0081",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.5547010464292,
+                  36.304072072072046
+                ],
+                [
+                  72.5653,
+                  36.304072072072046
+                ],
+                [
+                  72.5653,
+                  36.31308108108105
+                ],
+                [
+                  72.5547010464292,
+                  36.31308108108105
+                ],
+                [
+                  72.5547010464292,
+                  36.304072072072046
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0081",
+            "centroidLat": 36.308577,
+            "centroidLon": 72.560001,
+            "areaSqKm": 1,
+            "elevationM": 2161,
+            "slopeDeg": 42.4,
+            "aspectDeg": 208,
+            "annualRainfallMm": 990,
+            "summerTempC": 15.6,
+            "distRoadKm": 2.44,
+            "distSettlementKm": 3.98,
+            "ndviTrendSlope": -0.0032,
+            "ndmiTrendSlope": -0.0032,
+            "lastYearNdviChange": -0.018,
+            "fireCount5yr": 0,
+            "riskProb": 0.168,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 63
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0007",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.5323507848219,
+                  36.232
+                ],
+                [
+                  72.54352591562555,
+                  36.232
+                ],
+                [
+                  72.54352591562555,
+                  36.241009009009005
+                ],
+                [
+                  72.5323507848219,
+                  36.241009009009005
+                ],
+                [
+                  72.5323507848219,
+                  36.232
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0007",
+            "centroidLat": 36.236505,
+            "centroidLon": 72.537938,
+            "areaSqKm": 1,
+            "elevationM": 2331,
+            "slopeDeg": 39,
+            "aspectDeg": 279,
+            "annualRainfallMm": 1047,
+            "summerTempC": 14.8,
+            "distRoadKm": 2.26,
+            "distSettlementKm": 3.2,
+            "ndviTrendSlope": -0.0008,
+            "ndmiTrendSlope": 0.0006,
+            "lastYearNdviChange": -0.007,
+            "fireCount5yr": 0,
+            "riskProb": 0.167,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 64
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0061",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.5323507848219,
+                  36.286054054054034
+                ],
+                [
+                  72.54352591562555,
+                  36.286054054054034
+                ],
+                [
+                  72.54352591562555,
+                  36.29506306306304
+                ],
+                [
+                  72.5323507848219,
+                  36.29506306306304
+                ],
+                [
+                  72.5323507848219,
+                  36.286054054054034
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0061",
+            "centroidLat": 36.290559,
+            "centroidLon": 72.537938,
+            "areaSqKm": 1,
+            "elevationM": 3248,
+            "slopeDeg": 38.8,
+            "aspectDeg": 58,
+            "annualRainfallMm": 1113,
+            "summerTempC": 9.4,
+            "distRoadKm": 4.78,
+            "distSettlementKm": 6.94,
+            "ndviTrendSlope": -0.005,
+            "ndmiTrendSlope": -0.0031,
+            "lastYearNdviChange": -0.005,
+            "fireCount5yr": 0,
+            "riskProb": 0.165,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 65
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0067",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.49882539241095,
+                  36.29506306306304
+                ],
+                [
+                  72.5100005232146,
+                  36.29506306306304
+                ],
+                [
+                  72.5100005232146,
+                  36.304072072072046
+                ],
+                [
+                  72.49882539241095,
+                  36.304072072072046
+                ],
+                [
+                  72.49882539241095,
+                  36.29506306306304
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0067",
+            "centroidLat": 36.299568,
+            "centroidLon": 72.504413,
+            "areaSqKm": 1,
+            "elevationM": 3135,
+            "slopeDeg": 25.1,
+            "aspectDeg": 274,
+            "annualRainfallMm": 1176,
+            "summerTempC": 10.2,
+            "distRoadKm": 5.28,
+            "distSettlementKm": 8.83,
+            "ndviTrendSlope": 0.0016,
+            "ndmiTrendSlope": -0.0001,
+            "lastYearNdviChange": 0.014,
+            "fireCount5yr": 0,
+            "riskProb": 0.164,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 66
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0013",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.49882539241095,
+                  36.241009009009005
+                ],
+                [
+                  72.5100005232146,
+                  36.241009009009005
+                ],
+                [
+                  72.5100005232146,
+                  36.25001801801801
+                ],
+                [
+                  72.49882539241095,
+                  36.25001801801801
+                ],
+                [
+                  72.49882539241095,
+                  36.241009009009005
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0013",
+            "centroidLat": 36.245514,
+            "centroidLon": 72.504413,
+            "areaSqKm": 1,
+            "elevationM": 2511,
+            "slopeDeg": 31.4,
+            "aspectDeg": 140,
+            "annualRainfallMm": 1115,
+            "summerTempC": 14.7,
+            "distRoadKm": 4.51,
+            "distSettlementKm": 7.73,
+            "ndviTrendSlope": -0.0004,
+            "ndmiTrendSlope": -0.0002,
+            "lastYearNdviChange": 0.004,
+            "fireCount5yr": 0,
+            "riskProb": 0.161,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 67
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0065",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.47647513080365,
+                  36.29506306306304
+                ],
+                [
+                  72.4876502616073,
+                  36.29506306306304
+                ],
+                [
+                  72.4876502616073,
+                  36.304072072072046
+                ],
+                [
+                  72.47647513080365,
+                  36.304072072072046
+                ],
+                [
+                  72.47647513080365,
+                  36.29506306306304
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0065",
+            "centroidLat": 36.299568,
+            "centroidLon": 72.482063,
+            "areaSqKm": 1,
+            "elevationM": 3150,
+            "slopeDeg": 39.8,
+            "aspectDeg": 301,
+            "annualRainfallMm": 1108,
+            "summerTempC": 10.5,
+            "distRoadKm": 4.83,
+            "distSettlementKm": 7.43,
+            "ndviTrendSlope": -0.0048,
+            "ndmiTrendSlope": -0.0056,
+            "lastYearNdviChange": 0,
+            "fireCount5yr": 0,
+            "riskProb": 0.161,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 68
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0064",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.4653,
+                  36.29506306306304
+                ],
+                [
+                  72.47647513080365,
+                  36.29506306306304
+                ],
+                [
+                  72.47647513080365,
+                  36.304072072072046
+                ],
+                [
+                  72.4653,
+                  36.304072072072046
+                ],
+                [
+                  72.4653,
+                  36.29506306306304
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0064",
+            "centroidLat": 36.299568,
+            "centroidLon": 72.470888,
+            "areaSqKm": 1,
+            "elevationM": 3094,
+            "slopeDeg": 30.5,
+            "aspectDeg": 280,
+            "annualRainfallMm": 1153,
+            "summerTempC": 11.6,
+            "distRoadKm": 4.65,
+            "distSettlementKm": 7.5,
+            "ndviTrendSlope": 0.0001,
+            "ndmiTrendSlope": 0.0007,
+            "lastYearNdviChange": 0.001,
+            "fireCount5yr": 0,
+            "riskProb": 0.16,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 69
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0055",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.4653,
+                  36.286054054054034
+                ],
+                [
+                  72.47647513080365,
+                  36.286054054054034
+                ],
+                [
+                  72.47647513080365,
+                  36.29506306306304
+                ],
+                [
+                  72.4653,
+                  36.29506306306304
+                ],
+                [
+                  72.4653,
+                  36.286054054054034
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0055",
+            "centroidLat": 36.290559,
+            "centroidLon": 72.470888,
+            "areaSqKm": 1,
+            "elevationM": 2969,
+            "slopeDeg": 44.2,
+            "aspectDeg": 340,
+            "annualRainfallMm": 1126,
+            "summerTempC": 11.9,
+            "distRoadKm": 4.51,
+            "distSettlementKm": 6.84,
+            "ndviTrendSlope": -0.0057,
+            "ndmiTrendSlope": -0.0062,
+            "lastYearNdviChange": -0.023,
+            "fireCount5yr": 0,
+            "riskProb": 0.155,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 70
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0033",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.52117565401825,
+                  36.25902702702702
+                ],
+                [
+                  72.5323507848219,
+                  36.25902702702702
+                ],
+                [
+                  72.5323507848219,
+                  36.26803603603602
+                ],
+                [
+                  72.52117565401825,
+                  36.26803603603602
+                ],
+                [
+                  72.52117565401825,
+                  36.25902702702702
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0033",
+            "centroidLat": 36.263532,
+            "centroidLon": 72.526763,
+            "areaSqKm": 1,
+            "elevationM": 2920,
+            "slopeDeg": 38.4,
+            "aspectDeg": 146,
+            "annualRainfallMm": 1092,
+            "summerTempC": 11.3,
+            "distRoadKm": 3.03,
+            "distSettlementKm": 4.95,
+            "ndviTrendSlope": -0.0004,
+            "ndmiTrendSlope": -0.0011,
+            "lastYearNdviChange": -0.016,
+            "fireCount5yr": 0,
+            "riskProb": 0.154,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 71
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0070",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.5323507848219,
+                  36.29506306306304
+                ],
+                [
+                  72.54352591562555,
+                  36.29506306306304
+                ],
+                [
+                  72.54352591562555,
+                  36.304072072072046
+                ],
+                [
+                  72.5323507848219,
+                  36.304072072072046
+                ],
+                [
+                  72.5323507848219,
+                  36.29506306306304
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0070",
+            "centroidLat": 36.299568,
+            "centroidLon": 72.537938,
+            "areaSqKm": 1,
+            "elevationM": 3011,
+            "slopeDeg": 34.7,
+            "aspectDeg": 183,
+            "annualRainfallMm": 1083,
+            "summerTempC": 11.5,
+            "distRoadKm": 5.21,
+            "distSettlementKm": 7.7,
+            "ndviTrendSlope": -0.0015,
+            "ndmiTrendSlope": 0.0003,
+            "lastYearNdviChange": -0.012,
+            "fireCount5yr": 0,
+            "riskProb": 0.154,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 72
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0010",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.4653,
+                  36.241009009009005
+                ],
+                [
+                  72.47647513080365,
+                  36.241009009009005
+                ],
+                [
+                  72.47647513080365,
+                  36.25001801801801
+                ],
+                [
+                  72.4653,
+                  36.25001801801801
+                ],
+                [
+                  72.4653,
+                  36.241009009009005
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0010",
+            "centroidLat": 36.245514,
+            "centroidLon": 72.470888,
+            "areaSqKm": 1,
+            "elevationM": 2379,
+            "slopeDeg": 31.8,
+            "aspectDeg": 102,
+            "annualRainfallMm": 1026,
+            "summerTempC": 15.4,
+            "distRoadKm": 5.19,
+            "distSettlementKm": 7.54,
+            "ndviTrendSlope": 0.0004,
+            "ndmiTrendSlope": 0.0013,
+            "lastYearNdviChange": 0.001,
+            "fireCount5yr": 0,
+            "riskProb": 0.152,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 73
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0005",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.5100005232146,
+                  36.232
+                ],
+                [
+                  72.52117565401825,
+                  36.232
+                ],
+                [
+                  72.52117565401825,
+                  36.241009009009005
+                ],
+                [
+                  72.5100005232146,
+                  36.241009009009005
+                ],
+                [
+                  72.5100005232146,
+                  36.232
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0005",
+            "centroidLat": 36.236505,
+            "centroidLon": 72.515588,
+            "areaSqKm": 1,
+            "elevationM": 2262,
+            "slopeDeg": 41.4,
+            "aspectDeg": 172,
+            "annualRainfallMm": 1059,
+            "summerTempC": 15,
+            "distRoadKm": 2.61,
+            "distSettlementKm": 4.53,
+            "ndviTrendSlope": -0.0003,
+            "ndmiTrendSlope": 0.0012,
+            "lastYearNdviChange": -0.01,
+            "fireCount5yr": 0,
+            "riskProb": 0.15,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 74
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0071",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.54352591562555,
+                  36.29506306306304
+                ],
+                [
+                  72.5547010464292,
+                  36.29506306306304
+                ],
+                [
+                  72.5547010464292,
+                  36.304072072072046
+                ],
+                [
+                  72.54352591562555,
+                  36.304072072072046
+                ],
+                [
+                  72.54352591562555,
+                  36.29506306306304
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0071",
+            "centroidLat": 36.299568,
+            "centroidLon": 72.549113,
+            "areaSqKm": 1,
+            "elevationM": 3035,
+            "slopeDeg": 43,
+            "aspectDeg": 96,
+            "annualRainfallMm": 1133,
+            "summerTempC": 10.7,
+            "distRoadKm": 4.54,
+            "distSettlementKm": 6.83,
+            "ndviTrendSlope": -0.0044,
+            "ndmiTrendSlope": -0.0043,
+            "lastYearNdviChange": 0.002,
+            "fireCount5yr": 0,
+            "riskProb": 0.15,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 75
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0079",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.5323507848219,
+                  36.304072072072046
+                ],
+                [
+                  72.54352591562555,
+                  36.304072072072046
+                ],
+                [
+                  72.54352591562555,
+                  36.31308108108105
+                ],
+                [
+                  72.5323507848219,
+                  36.31308108108105
+                ],
+                [
+                  72.5323507848219,
+                  36.304072072072046
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0079",
+            "centroidLat": 36.308577,
+            "centroidLon": 72.537938,
+            "areaSqKm": 1,
+            "elevationM": 2032,
+            "slopeDeg": 33.9,
+            "aspectDeg": 144,
+            "annualRainfallMm": 1026,
+            "summerTempC": 17.3,
+            "distRoadKm": 3.86,
+            "distSettlementKm": 5.47,
+            "ndviTrendSlope": 0.0011,
+            "ndmiTrendSlope": 0.0009,
+            "lastYearNdviChange": -0.012,
+            "fireCount5yr": 0,
+            "riskProb": 0.15,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 76
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0041",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.5100005232146,
+                  36.26803603603602
+                ],
+                [
+                  72.52117565401825,
+                  36.26803603603602
+                ],
+                [
+                  72.52117565401825,
+                  36.27704504504503
+                ],
+                [
+                  72.5100005232146,
+                  36.27704504504503
+                ],
+                [
+                  72.5100005232146,
+                  36.26803603603602
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0041",
+            "centroidLat": 36.272541,
+            "centroidLon": 72.515588,
+            "areaSqKm": 1,
+            "elevationM": 2980,
+            "slopeDeg": 43.3,
+            "aspectDeg": 64,
+            "annualRainfallMm": 1114,
+            "summerTempC": 11.2,
+            "distRoadKm": 4.93,
+            "distSettlementKm": 8.11,
+            "ndviTrendSlope": -0.0041,
+            "ndmiTrendSlope": -0.0027,
+            "lastYearNdviChange": -0.01,
+            "fireCount5yr": 0,
+            "riskProb": 0.146,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 77
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0049",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.49882539241095,
+                  36.27704504504503
+                ],
+                [
+                  72.5100005232146,
+                  36.27704504504503
+                ],
+                [
+                  72.5100005232146,
+                  36.286054054054034
+                ],
+                [
+                  72.49882539241095,
+                  36.286054054054034
+                ],
+                [
+                  72.49882539241095,
+                  36.27704504504503
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0049",
+            "centroidLat": 36.28155,
+            "centroidLon": 72.504413,
+            "areaSqKm": 1,
+            "elevationM": 3020,
+            "slopeDeg": 39.8,
+            "aspectDeg": 130,
+            "annualRainfallMm": 1155,
+            "summerTempC": 11.3,
+            "distRoadKm": 3.32,
+            "distSettlementKm": 5.03,
+            "ndviTrendSlope": -0.0001,
+            "ndmiTrendSlope": 0.0011,
+            "lastYearNdviChange": -0.005,
+            "fireCount5yr": 0,
+            "riskProb": 0.145,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 78
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0077",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.5100005232146,
+                  36.304072072072046
+                ],
+                [
+                  72.52117565401825,
+                  36.304072072072046
+                ],
+                [
+                  72.52117565401825,
+                  36.31308108108105
+                ],
+                [
+                  72.5100005232146,
+                  36.31308108108105
+                ],
+                [
+                  72.5100005232146,
+                  36.304072072072046
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0077",
+            "centroidLat": 36.308577,
+            "centroidLon": 72.515588,
+            "areaSqKm": 1,
+            "elevationM": 2235,
+            "slopeDeg": 43.9,
+            "aspectDeg": 16,
+            "annualRainfallMm": 1030,
+            "summerTempC": 15.6,
+            "distRoadKm": 5.11,
+            "distSettlementKm": 7.26,
+            "ndviTrendSlope": -0.0039,
+            "ndmiTrendSlope": -0.0017,
+            "lastYearNdviChange": -0.013,
+            "fireCount5yr": 0,
+            "riskProb": 0.142,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 79
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0036",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.5547010464292,
+                  36.25902702702702
+                ],
+                [
+                  72.5653,
+                  36.25902702702702
+                ],
+                [
+                  72.5653,
+                  36.26803603603602
+                ],
+                [
+                  72.5547010464292,
+                  36.26803603603602
+                ],
+                [
+                  72.5547010464292,
+                  36.25902702702702
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0036",
+            "centroidLat": 36.263532,
+            "centroidLon": 72.560001,
+            "areaSqKm": 1,
+            "elevationM": 2621,
+            "slopeDeg": 48.9,
+            "aspectDeg": 212,
+            "annualRainfallMm": 1053,
+            "summerTempC": 13.1,
+            "distRoadKm": 4.74,
+            "distSettlementKm": 7.75,
+            "ndviTrendSlope": -0.0059,
+            "ndmiTrendSlope": -0.0042,
+            "lastYearNdviChange": -0.016,
+            "fireCount5yr": 0,
+            "riskProb": 0.141,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 80
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0082",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.4653,
+                  36.31308108108105
+                ],
+                [
+                  72.47647513080365,
+                  36.31308108108105
+                ],
+                [
+                  72.47647513080365,
+                  36.322
+                ],
+                [
+                  72.4653,
+                  36.322
+                ],
+                [
+                  72.4653,
+                  36.31308108108105
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0082",
+            "centroidLat": 36.317541,
+            "centroidLon": 72.470888,
+            "areaSqKm": 1,
+            "elevationM": 2237,
+            "slopeDeg": 36.8,
+            "aspectDeg": 203,
+            "annualRainfallMm": 1041,
+            "summerTempC": 15.6,
+            "distRoadKm": 4.77,
+            "distSettlementKm": 7.58,
+            "ndviTrendSlope": 0.0001,
+            "ndmiTrendSlope": 0.0018,
+            "lastYearNdviChange": -0.008,
+            "fireCount5yr": 0,
+            "riskProb": 0.141,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 81
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0003",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.4876502616073,
+                  36.232
+                ],
+                [
+                  72.49882539241095,
+                  36.232
+                ],
+                [
+                  72.49882539241095,
+                  36.241009009009005
+                ],
+                [
+                  72.4876502616073,
+                  36.241009009009005
+                ],
+                [
+                  72.4876502616073,
+                  36.232
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0003",
+            "centroidLat": 36.236505,
+            "centroidLon": 72.493238,
+            "areaSqKm": 1,
+            "elevationM": 2346,
+            "slopeDeg": 33.4,
+            "aspectDeg": 348,
+            "annualRainfallMm": 1046,
+            "summerTempC": 15.1,
+            "distRoadKm": 5.53,
+            "distSettlementKm": 9.19,
+            "ndviTrendSlope": 0.0018,
+            "ndmiTrendSlope": 0.0007,
+            "lastYearNdviChange": -0.005,
+            "fireCount5yr": 0,
+            "riskProb": 0.138,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 82
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0026",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.54352591562555,
+                  36.25001801801801
+                ],
+                [
+                  72.5547010464292,
+                  36.25001801801801
+                ],
+                [
+                  72.5547010464292,
+                  36.25902702702702
+                ],
+                [
+                  72.54352591562555,
+                  36.25902702702702
+                ],
+                [
+                  72.54352591562555,
+                  36.25001801801801
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0026",
+            "centroidLat": 36.254523,
+            "centroidLon": 72.549113,
+            "areaSqKm": 1,
+            "elevationM": 2709,
+            "slopeDeg": 45.9,
+            "aspectDeg": 216,
+            "annualRainfallMm": 1058,
+            "summerTempC": 12.8,
+            "distRoadKm": 3.72,
+            "distSettlementKm": 6.24,
+            "ndviTrendSlope": -0.0022,
+            "ndmiTrendSlope": -0.0029,
+            "lastYearNdviChange": 0.004,
+            "fireCount5yr": 0,
+            "riskProb": 0.136,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 83
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0012",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.4876502616073,
+                  36.241009009009005
+                ],
+                [
+                  72.49882539241095,
+                  36.241009009009005
+                ],
+                [
+                  72.49882539241095,
+                  36.25001801801801
+                ],
+                [
+                  72.4876502616073,
+                  36.25001801801801
+                ],
+                [
+                  72.4876502616073,
+                  36.241009009009005
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0012",
+            "centroidLat": 36.245514,
+            "centroidLon": 72.493238,
+            "areaSqKm": 1,
+            "elevationM": 2631,
+            "slopeDeg": 44.2,
+            "aspectDeg": 152,
+            "annualRainfallMm": 1126,
+            "summerTempC": 13.9,
+            "distRoadKm": 3.59,
+            "distSettlementKm": 6.36,
+            "ndviTrendSlope": -0.0005,
+            "ndmiTrendSlope": -0.0014,
+            "lastYearNdviChange": 0.009,
+            "fireCount5yr": 0,
+            "riskProb": 0.133,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 84
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0090",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.5547010464292,
+                  36.31308108108105
+                ],
+                [
+                  72.5653,
+                  36.31308108108105
+                ],
+                [
+                  72.5653,
+                  36.322
+                ],
+                [
+                  72.5547010464292,
+                  36.322
+                ],
+                [
+                  72.5547010464292,
+                  36.31308108108105
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0090",
+            "centroidLat": 36.317541,
+            "centroidLon": 72.560001,
+            "areaSqKm": 1,
+            "elevationM": 2208,
+            "slopeDeg": 46.7,
+            "aspectDeg": 198,
+            "annualRainfallMm": 1081,
+            "summerTempC": 16.6,
+            "distRoadKm": 3.08,
+            "distSettlementKm": 5.04,
+            "ndviTrendSlope": -0.0009,
+            "ndmiTrendSlope": -0.0027,
+            "lastYearNdviChange": -0.005,
+            "fireCount5yr": 0,
+            "riskProb": 0.133,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 85
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0031",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.49882539241095,
+                  36.25902702702702
+                ],
+                [
+                  72.5100005232146,
+                  36.25902702702702
+                ],
+                [
+                  72.5100005232146,
+                  36.26803603603602
+                ],
+                [
+                  72.49882539241095,
+                  36.26803603603602
+                ],
+                [
+                  72.49882539241095,
+                  36.25902702702702
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0031",
+            "centroidLat": 36.263532,
+            "centroidLon": 72.504413,
+            "areaSqKm": 1,
+            "elevationM": 2631,
+            "slopeDeg": 37.9,
+            "aspectDeg": 279,
+            "annualRainfallMm": 1109,
+            "summerTempC": 12.8,
+            "distRoadKm": 5.37,
+            "distSettlementKm": 8.07,
+            "ndviTrendSlope": 0.001,
+            "ndmiTrendSlope": 0.0018,
+            "lastYearNdviChange": -0.004,
+            "fireCount5yr": 0,
+            "riskProb": 0.131,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 86
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0084",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.4876502616073,
+                  36.31308108108105
+                ],
+                [
+                  72.49882539241095,
+                  36.31308108108105
+                ],
+                [
+                  72.49882539241095,
+                  36.322
+                ],
+                [
+                  72.4876502616073,
+                  36.322
+                ],
+                [
+                  72.4876502616073,
+                  36.31308108108105
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0084",
+            "centroidLat": 36.317541,
+            "centroidLon": 72.493238,
+            "areaSqKm": 1,
+            "elevationM": 2073,
+            "slopeDeg": 47,
+            "aspectDeg": 181,
+            "annualRainfallMm": 1067,
+            "summerTempC": 17.2,
+            "distRoadKm": 5.31,
+            "distSettlementKm": 8.8,
+            "ndviTrendSlope": -0.0029,
+            "ndmiTrendSlope": -0.0039,
+            "lastYearNdviChange": -0.011,
+            "fireCount5yr": 0,
+            "riskProb": 0.128,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 87
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0042",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.52117565401825,
+                  36.26803603603602
+                ],
+                [
+                  72.5323507848219,
+                  36.26803603603602
+                ],
+                [
+                  72.5323507848219,
+                  36.27704504504503
+                ],
+                [
+                  72.52117565401825,
+                  36.27704504504503
+                ],
+                [
+                  72.52117565401825,
+                  36.26803603603602
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0042",
+            "centroidLat": 36.272541,
+            "centroidLon": 72.526763,
+            "areaSqKm": 1,
+            "elevationM": 2785,
+            "slopeDeg": 47.8,
+            "aspectDeg": 220,
+            "annualRainfallMm": 1121,
+            "summerTempC": 12,
+            "distRoadKm": 4.4,
+            "distSettlementKm": 7.62,
+            "ndviTrendSlope": -0.0023,
+            "ndmiTrendSlope": -0.0019,
+            "lastYearNdviChange": -0.005,
+            "fireCount5yr": 0,
+            "riskProb": 0.127,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 88
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0076",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.49882539241095,
+                  36.304072072072046
+                ],
+                [
+                  72.5100005232146,
+                  36.304072072072046
+                ],
+                [
+                  72.5100005232146,
+                  36.31308108108105
+                ],
+                [
+                  72.49882539241095,
+                  36.31308108108105
+                ],
+                [
+                  72.49882539241095,
+                  36.304072072072046
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0076",
+            "centroidLat": 36.308577,
+            "centroidLon": 72.504413,
+            "areaSqKm": 1,
+            "elevationM": 2283,
+            "slopeDeg": 43.5,
+            "aspectDeg": 203,
+            "annualRainfallMm": 1063,
+            "summerTempC": 15.4,
+            "distRoadKm": 4.39,
+            "distSettlementKm": 7.4,
+            "ndviTrendSlope": 0.0015,
+            "ndmiTrendSlope": -0.0003,
+            "lastYearNdviChange": 0.01,
+            "fireCount5yr": 0,
+            "riskProb": 0.119,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 89
+          }
+        },
+        {
+          "type": "Feature",
+          "id": "GRID_0034",
+          "geometry": {
+            "type": "Polygon",
+            "coordinates": [
+              [
+                [
+                  72.5323507848219,
+                  36.25902702702702
+                ],
+                [
+                  72.54352591562555,
+                  36.25902702702702
+                ],
+                [
+                  72.54352591562555,
+                  36.26803603603602
+                ],
+                [
+                  72.5323507848219,
+                  36.26803603603602
+                ],
+                [
+                  72.5323507848219,
+                  36.25902702702702
+                ]
+              ]
+            ]
+          },
+          "properties": {
+            "cellId": "GRID_0034",
+            "centroidLat": 36.263532,
+            "centroidLon": 72.537938,
+            "areaSqKm": 1,
+            "elevationM": 2758,
+            "slopeDeg": 49,
+            "aspectDeg": 136,
+            "annualRainfallMm": 1081,
+            "summerTempC": 13.5,
+            "distRoadKm": 4.54,
+            "distSettlementKm": 7.49,
+            "ndviTrendSlope": -0.0001,
+            "ndmiTrendSlope": 0.0017,
+            "lastYearNdviChange": -0.009,
+            "fireCount5yr": 0,
+            "riskProb": 0.113,
+            "riskLevel": "Low",
+            "riskColor": "#52B788",
+            "statusNote": "Estimated probability, not a certainty.",
+            "priorityRank": 90
+          }
+        }
+      ]
+    },
+    "top10Priorities": [
+      {
+        "rank": 1,
+        "cellId": "GRID_0011",
+        "riskProb": 0.955,
+        "riskLevel": "High",
+        "riskColor": "#D90429",
+        "centroidLat": 36.245514,
+        "centroidLon": 72.482063,
+        "distRoadKm": 0.2,
+        "elevationM": 2745,
+        "slopeDeg": 20.7
+      },
+      {
+        "rank": 2,
+        "cellId": "GRID_0017",
+        "riskProb": 0.809,
+        "riskLevel": "High",
+        "riskColor": "#D90429",
+        "centroidLat": 36.245514,
+        "centroidLon": 72.549113,
+        "distRoadKm": 0.8,
+        "elevationM": 2352,
+        "slopeDeg": 48.6
+      },
+      {
+        "rank": 3,
+        "cellId": "GRID_0078",
+        "riskProb": 0.798,
+        "riskLevel": "High",
+        "riskColor": "#D90429",
+        "centroidLat": 36.308577,
+        "centroidLon": 72.526763,
+        "distRoadKm": 0.2,
+        "elevationM": 2241,
+        "slopeDeg": 26.5
+      },
+      {
+        "rank": 4,
+        "cellId": "GRID_0018",
+        "riskProb": 0.783,
+        "riskLevel": "High",
+        "riskColor": "#D90429",
+        "centroidLat": 36.245514,
+        "centroidLon": 72.560001,
+        "distRoadKm": 1.32,
+        "elevationM": 2490,
+        "slopeDeg": 30
+      },
+      {
+        "rank": 5,
+        "cellId": "GRID_0047",
+        "riskProb": 0.782,
+        "riskLevel": "High",
+        "riskColor": "#D90429",
+        "centroidLat": 36.28155,
+        "centroidLon": 72.482063,
+        "distRoadKm": 0.89,
+        "elevationM": 2780,
+        "slopeDeg": 16.6
+      },
+      {
+        "rank": 6,
+        "cellId": "GRID_0008",
+        "riskProb": 0.743,
+        "riskLevel": "High",
+        "riskColor": "#D90429",
+        "centroidLat": 36.236505,
+        "centroidLon": 72.549113,
+        "distRoadKm": 0.64,
+        "elevationM": 2324,
+        "slopeDeg": 46.7
+      },
+      {
+        "rank": 7,
+        "cellId": "GRID_0046",
+        "riskProb": 0.735,
+        "riskLevel": "High",
+        "riskColor": "#D90429",
+        "centroidLat": 36.28155,
+        "centroidLon": 72.470888,
+        "distRoadKm": 2.23,
+        "elevationM": 2886,
+        "slopeDeg": 33.1
+      },
+      {
+        "rank": 8,
+        "cellId": "GRID_0051",
+        "riskProb": 0.704,
+        "riskLevel": "High",
+        "riskColor": "#D90429",
+        "centroidLat": 36.28155,
+        "centroidLon": 72.526763,
+        "distRoadKm": 0.2,
+        "elevationM": 3101,
+        "slopeDeg": 30.1
+      },
+      {
+        "rank": 9,
+        "cellId": "GRID_0004",
+        "riskProb": 0.702,
+        "riskLevel": "High",
+        "riskColor": "#D90429",
+        "centroidLat": 36.236505,
+        "centroidLon": 72.504413,
+        "distRoadKm": 0.2,
+        "elevationM": 2391,
+        "slopeDeg": 26
+      },
+      {
+        "rank": 10,
+        "cellId": "GRID_0083",
+        "riskProb": 0.692,
+        "riskLevel": "High",
+        "riskColor": "#D90429",
+        "centroidLat": 36.317541,
+        "centroidLon": 72.482063,
+        "distRoadKm": 0.2,
+        "elevationM": 2113,
+        "slopeDeg": 19.4
+      }
+    ],
+    "featureImportances": [
+      {
+        "feature": "Multi-Year NDVI Trend Slope",
+        "importance": 0.342,
+        "description": "Prior canopy decline indicates high future felling risk"
+      },
+      {
+        "feature": "Distance to Forest Road (km)",
+        "importance": 0.231,
+        "description": "Proximity to vehicular road enables timber transport"
+      },
+      {
+        "feature": "Terrain Slope Angle (°)",
+        "importance": 0.145,
+        "description": "Gentle terrain is accessible; steep ravines deter clearing"
+      },
+      {
+        "feature": "Historical FIRMS Hotspots",
+        "importance": 0.112,
+        "description": "Repeated fire occurrence degrades canopy regeneration"
+      },
+      {
+        "feature": "Canopy Moisture (NDMI) Trend",
+        "importance": 0.084,
+        "description": "Moisture drop highlights drought & insect vulnerability"
+      },
+      {
+        "feature": "Annual Rainfall (CHIRPS)",
+        "importance": 0.048,
+        "description": "Precipitation deficit accelerates stress"
+      },
+      {
+        "feature": "Copernicus DEM Elevation (m)",
+        "importance": 0.038,
+        "description": "Altitude gradient influences species distribution"
+      }
+    ],
+    "modelCard": {
+      "architecture": "Gradient Tree Boost (ee.Classifier.smileGradientTreeBoost / XGBoost)",
+      "rocAuc": 0.892,
+      "prAuc": 0.841,
+      "brierScore": 0.114,
+      "validationProtocol": "Held-out Spatial Block Cross-Validation (No spatial autocorrelation leakage)",
+      "trainingYears": "2018 - 2025 (Validated against 2025/2026 ground events)",
+      "limitations": [
+        "Sudden unseasonal logging immediately after monsoon cloud cover cannot be predicted before satellite pass.",
+        "Winter snowpack in sub-alpine zones restricts optical monitoring to June - September.",
+        "Resolution bounded to 1km strategic management cells."
+      ],
+      "complianceNote": "Estimated probability, not a certainty. For proactive ranger allocation only."
+    }
+  },
+  "forecast": {
+    "forecast": [
+      {
+        "year": 2018,
+        "type": "Historical",
+        "predictedCoverPct": 74.3,
+        "lowerBoundPct": 74.3,
+        "upperBoundPct": 74.3
+      },
+      {
+        "year": 2019,
+        "type": "Historical",
+        "predictedCoverPct": 74.1,
+        "lowerBoundPct": 74.1,
+        "upperBoundPct": 74.1
+      },
+      {
+        "year": 2020,
+        "type": "Historical",
+        "predictedCoverPct": 73.3,
+        "lowerBoundPct": 73.3,
+        "upperBoundPct": 73.3
+      },
+      {
+        "year": 2021,
+        "type": "Historical",
+        "predictedCoverPct": 73,
+        "lowerBoundPct": 73,
+        "upperBoundPct": 73
+      },
+      {
+        "year": 2022,
+        "type": "Historical",
+        "predictedCoverPct": 71.7,
+        "lowerBoundPct": 71.7,
+        "upperBoundPct": 71.7
+      },
+      {
+        "year": 2023,
+        "type": "Historical",
+        "predictedCoverPct": 71.5,
+        "lowerBoundPct": 71.5,
+        "upperBoundPct": 71.5
+      },
+      {
+        "year": 2024,
+        "type": "Historical",
+        "predictedCoverPct": 70.8,
+        "lowerBoundPct": 70.8,
+        "upperBoundPct": 70.8
+      },
+      {
+        "year": 2025,
+        "type": "Historical",
+        "predictedCoverPct": 70.1,
+        "lowerBoundPct": 70.1,
+        "upperBoundPct": 70.1
+      },
+      {
+        "year": 2026,
+        "type": "Historical",
+        "predictedCoverPct": 69.5,
+        "lowerBoundPct": 69.5,
+        "upperBoundPct": 69.5
+      },
+      {
+        "year": 2027,
+        "type": "Projected",
+        "predictedCoverPct": 68.9,
+        "lowerBoundPct": 68.3,
+        "upperBoundPct": 69.5
+      },
+      {
+        "year": 2028,
+        "type": "Projected",
+        "predictedCoverPct": 68.3,
+        "lowerBoundPct": 67.6,
+        "upperBoundPct": 68.9
+      },
+      {
+        "year": 2029,
+        "type": "Projected",
+        "predictedCoverPct": 67.6,
+        "lowerBoundPct": 66.9,
+        "upperBoundPct": 68.3
+      },
+      {
+        "year": 2030,
+        "type": "Projected",
+        "predictedCoverPct": 67,
+        "lowerBoundPct": 66.2,
+        "upperBoundPct": 67.8
+      },
+      {
+        "year": 2031,
+        "type": "Projected",
+        "predictedCoverPct": 66.4,
+        "lowerBoundPct": 65.6,
+        "upperBoundPct": 67.2
+      }
+    ],
+    "annualRatePct": -0.628,
+    "r2Score": 0.986,
+    "summaryText": "Downward trajectory: projected net loss of 3.1% canopy cover by 2031 if current disturbance rate persists unchecked.",
+    "notice": "Algorithmic projection assuming continuation of recent environmental trends. For decision support and early intervention only."
+  },
+  "latestPassDate": "2026-09-14 (Sentinel-2 L2A Cloud-Free)",
+  "mode": "LIVE",
+  "isDemoData": true,
+  "timestamp": "2026-11-20T09:33:38.328Z"
+}
