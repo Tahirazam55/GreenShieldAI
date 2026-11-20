@@ -34,3 +34,5 @@ forest_guardian_kp/
 .DS_Store
 Thumbs.db
 backend/data/*.db-journal
+backend/data/*.db-shm
+backend/data/*.db-wal
